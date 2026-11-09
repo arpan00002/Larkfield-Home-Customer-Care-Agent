@@ -1,0 +1,2186 @@
+{
+  "customers": {
+    "C10000": {
+      "country": "US",
+      "created_at": "2025-09-06",
+      "customer_id": "C10000",
+      "email": "asha.shah0@mail.example",
+      "email_raw": "asha.shah0@mail.example",
+      "loyalty_tier": "silver",
+      "name": "Asha Shah"
+    },
+    "C10001": {
+      "country": "US",
+      "created_at": "2025-04-21",
+      "customer_id": "C10001",
+      "email": "ben.tanaka1@mail.example",
+      "email_raw": "ben.tanaka1@mail.example",
+      "loyalty_tier": "silver",
+      "name": "Ben Tanaka"
+    },
+    "C10002": {
+      "country": "US",
+      "created_at": "2024-04-22",
+      "customer_id": "C10002",
+      "email": "carla.ivanova2@mail.example",
+      "email_raw": "carla.ivanova2@mail.example",
+      "loyalty_tier": "none",
+      "name": "Carla Ivanova"
+    },
+    "C10003": {
+      "country": "CA",
+      "created_at": "2025-02-10",
+      "customer_id": "C10003",
+      "email": "dev.costa3@mail.example",
+      "email_raw": "dev.costa3@mail.example",
+      "loyalty_tier": "silver",
+      "name": "Dev Costa"
+    },
+    "C10004": {
+      "country": "CA",
+      "created_at": "2024-06-28",
+      "customer_id": "C10004",
+      "email": "elena.wu4@mail.example",
+      "email_raw": "elena.wu4@mail.example",
+      "loyalty_tier": "none",
+      "name": "Elena Wu"
+    },
+    "C10005": {
+      "country": "US",
+      "created_at": "2024-07-24",
+      "customer_id": "C10005",
+      "email": "farid.khan5@mail.example",
+      "email_raw": "farid.khan5@mail.example",
+      "loyalty_tier": "silver",
+      "name": "Farid Khan"
+    },
+    "C10006": {
+      "country": "US",
+      "created_at": "2025-11-23",
+      "customer_id": "C10006",
+      "email": "grace.cohen6@mail.example",
+      "email_raw": "grace.cohen6@mail.example",
+      "loyalty_tier": "gold",
+      "name": "Grace Cohen"
+    },
+    "C10007": {
+      "country": "US",
+      "created_at": "2024-06-10",
+      "customer_id": "C10007",
+      "email": "hiro.wright7@mail.example",
+      "email_raw": "hiro.wright7@mail.example",
+      "loyalty_tier": "gold",
+      "name": "Hiro Wright"
+    },
+    "C10008": {
+      "country": "US",
+      "created_at": "2025-05-15",
+      "customer_id": "C10008",
+      "email": "isla.bose8@mail.example",
+      "email_raw": "isla.bose8@mail.example",
+      "loyalty_tier": "none",
+      "name": "Isla Bose"
+    },
+    "C10009": {
+      "country": "US",
+      "created_at": "2026-02-13",
+      "customer_id": "C10009",
+      "email": "jon.patel9@mail.example",
+      "email_raw": "jon.patel9@mail.example",
+      "loyalty_tier": "none",
+      "name": "Jon Patel"
+    },
+    "C10010": {
+      "country": "US",
+      "created_at": "2024-06-13",
+      "customer_id": "C10010",
+      "email": "kavya.iyer10@mail.example",
+      "email_raw": "kavya.iyer10@mail.example",
+      "loyalty_tier": "silver",
+      "name": "Kavya Iyer"
+    },
+    "C10011": {
+      "country": "US",
+      "created_at": "2024-10-25",
+      "customer_id": "C10011",
+      "email": "liam.verma11@mail.example",
+      "email_raw": "liam.verma11@mail.example",
+      "loyalty_tier": "silver",
+      "name": "Liam Verma"
+    },
+    "C10012": {
+      "country": "CA",
+      "created_at": "2024-05-02",
+      "customer_id": "C10012",
+      "email": "maya.haddad12@mail.example",
+      "email_raw": "maya.haddad12@mail.example",
+      "loyalty_tier": "none",
+      "name": "Maya Haddad"
+    },
+    "C10013": {
+      "country": "US",
+      "created_at": "2024-11-30",
+      "customer_id": "C10013",
+      "email": "nikhil.miller13@mail.example",
+      "email_raw": "nikhil.miller13@mail.example",
+      "loyalty_tier": "silver",
+      "name": "Nikhil Miller"
+    },
+    "C10014": {
+      "country": "US",
+      "created_at": "2024-06-29",
+      "customer_id": "C10014",
+      "email": "olga.brown14@mail.example",
+      "email_raw": "olga.brown14@mail.example",
+      "loyalty_tier": "silver",
+      "name": "Olga Brown"
+    },
+    "C10015": {
+      "country": "US",
+      "created_at": "2024-08-16",
+      "customer_id": "C10015",
+      "email": "priya.rao15@mail.example",
+      "email_raw": "priya.rao15@mail.example",
+      "loyalty_tier": "none",
+      "name": "Priya Rao"
+    },
+    "C10016": {
+      "country": "US",
+      "created_at": "2025-06-24",
+      "customer_id": "C10016",
+      "email": "quinn.zhang16@mail.example",
+      "email_raw": "quinn.zhang16@mail.example",
+      "loyalty_tier": "silver",
+      "name": "Quinn Zhang"
+    },
+    "C10017": {
+      "country": "US",
+      "created_at": "2026-07-28",
+      "customer_id": "C10017",
+      "email": "rahul.reid17@mail.example",
+      "email_raw": "rahul.reid17@mail.example",
+      "loyalty_tier": "none",
+      "name": "Rahul Reid"
+    },
+    "C10018": {
+      "country": "CA",
+      "created_at": "2026-03-06",
+      "customer_id": "C10018",
+      "email": "sara.lee18@mail.example",
+      "email_raw": "sara.lee18@mail.example",
+      "loyalty_tier": "gold",
+      "name": "Sara Lee"
+    },
+    "C10019": {
+      "country": "US",
+      "created_at": "2024-06-14",
+      "customer_id": "C10019",
+      "email": "tom.mehta19@mail.example",
+      "email_raw": "tom.mehta19@mail.example",
+      "loyalty_tier": "silver",
+      "name": "Tom Mehta"
+    },
+    "C10020": {
+      "country": "US",
+      "created_at": "2024-08-25",
+      "customer_id": "C10020",
+      "email": "uma.nair20@mail.example",
+      "email_raw": "uma.nair20@mail.example",
+      "loyalty_tier": "silver",
+      "name": "Uma Nair"
+    },
+    "C10021": {
+      "country": "US",
+      "created_at": "2025-09-07",
+      "customer_id": "C10021",
+      "email": "victor.ferrari21@mail.example",
+      "email_raw": "victor.ferrari21@mail.example",
+      "loyalty_tier": "none",
+      "name": "Victor Ferrari"
+    },
+    "C10022": {
+      "country": "US",
+      "created_at": "2026-04-26",
+      "customer_id": "C10022",
+      "email": "wen.novak22@mail.example",
+      "email_raw": "wen.novak22@mail.example",
+      "loyalty_tier": "none",
+      "name": "Wen Novak"
+    },
+    "C10023": {
+      "country": "US",
+      "created_at": "2025-11-13",
+      "customer_id": "C10023",
+      "email": "xavier.murphy23@mail.example",
+      "email_raw": "xavier.murphy23@mail.example",
+      "loyalty_tier": "silver",
+      "name": "Xavier Murphy"
+    },
+    "C10024": {
+      "country": "US",
+      "created_at": "2024-06-07",
+      "customer_id": "C10024",
+      "email": "yara.lopez24@mail.example",
+      "email_raw": "yara.lopez24@mail.example",
+      "loyalty_tier": "silver",
+      "name": "Yara Lopez"
+    },
+    "C10025": {
+      "country": "US",
+      "created_at": "2025-06-18",
+      "customer_id": "C10025",
+      "email": "zoe.king25@mail.example",
+      "email_raw": "zoe.king25@mail.example",
+      "loyalty_tier": "none",
+      "name": "Zoe King"
+    },
+    "C10026": {
+      "country": "US",
+      "created_at": "2024-09-29",
+      "customer_id": "C10026",
+      "email": "arjun.rossi26@mail.example",
+      "email_raw": "arjun.rossi26@mail.example",
+      "loyalty_tier": "none",
+      "name": "Arjun Rossi"
+    },
+    "C10027": {
+      "country": "US",
+      "created_at": "2026-01-26",
+      "customer_id": "C10027",
+      "email": "bella.silva27@mail.example",
+      "email_raw": "bella.silva27@mail.example",
+      "loyalty_tier": "silver",
+      "name": "Bella Silva"
+    },
+    "C10028": {
+      "country": "US",
+      "created_at": "2025-08-13",
+      "customer_id": "C10028",
+      "email": "chen.hughes28@mail.example",
+      "email_raw": "chen.hughes28@mail.example",
+      "loyalty_tier": "none",
+      "name": "Chen Hughes"
+    },
+    "C10029": {
+      "country": "US",
+      "created_at": "2026-03-02",
+      "customer_id": "C10029",
+      "email": "dana.dubois29@mail.example",
+      "email_raw": "dana.dubois29@mail.example",
+      "loyalty_tier": "silver",
+      "name": "Dana Dubois"
+    },
+    "C10030": {
+      "country": "US",
+      "created_at": "2026-06-05",
+      "customer_id": "C10030",
+      "email": "asha.shah30@mail.example",
+      "email_raw": "asha.shah30@mail.example",
+      "loyalty_tier": "none",
+      "name": "Asha Shah"
+    },
+    "C10031": {
+      "country": "US",
+      "created_at": "2025-04-12",
+      "customer_id": "C10031",
+      "email": "ben.tanaka31@mail.example",
+      "email_raw": "ben.tanaka31@mail.example",
+      "loyalty_tier": "gold",
+      "name": "Ben Tanaka"
+    },
+    "C10032": {
+      "country": "US",
+      "created_at": "2025-04-01",
+      "customer_id": "C10032",
+      "email": "carla.ivanova32@mail.example",
+      "email_raw": "carla.ivanova32@mail.example",
+      "loyalty_tier": "none",
+      "name": "Carla Ivanova"
+    },
+    "C10033": {
+      "country": "US",
+      "created_at": "2025-07-15",
+      "customer_id": "C10033",
+      "email": "dev.costa33@mail.example",
+      "email_raw": "dev.costa33@mail.example",
+      "loyalty_tier": "none",
+      "name": "Dev Costa"
+    },
+    "C10034": {
+      "country": "CA",
+      "created_at": "2026-06-28",
+      "customer_id": "C10034",
+      "email": "elena.wu34@mail.example",
+      "email_raw": "elena.wu34@mail.example",
+      "loyalty_tier": "silver",
+      "name": "Elena Wu"
+    },
+    "C10035": {
+      "country": "US",
+      "created_at": "2026-06-07",
+      "customer_id": "C10035",
+      "email": "farid.khan35@mail.example",
+      "email_raw": "farid.khan35@mail.example",
+      "loyalty_tier": "none",
+      "name": "Farid Khan"
+    },
+    "C10036": {
+      "country": "US",
+      "created_at": "2026-07-30",
+      "customer_id": "C10036",
+      "email": "grace.cohen36@mail.example",
+      "email_raw": "grace.cohen36@mail.example",
+      "loyalty_tier": "silver",
+      "name": "Grace Cohen"
+    },
+    "C10037": {
+      "country": "US",
+      "created_at": "2024-05-14",
+      "customer_id": "C10037",
+      "email": "hiro.wright37@mail.example",
+      "email_raw": "hiro.wright37@mail.example",
+      "loyalty_tier": "gold",
+      "name": "Hiro Wright"
+    },
+    "C10038": {
+      "country": "US",
+      "created_at": "2025-04-21",
+      "customer_id": "C10038",
+      "email": "isla.bose38@mail.example",
+      "email_raw": "isla.bose38@mail.example",
+      "loyalty_tier": "none",
+      "name": "Isla Bose"
+    },
+    "C10039": {
+      "country": "US",
+      "created_at": "2024-12-11",
+      "customer_id": "C10039",
+      "email": "jon.patel39@mail.example",
+      "email_raw": "jon.patel39@mail.example",
+      "loyalty_tier": "silver",
+      "name": "Jon Patel"
+    },
+    "C10040": {
+      "country": "US",
+      "created_at": "2025-03-28",
+      "customer_id": "C10040",
+      "email": "kavya.iyer40@mail.example",
+      "email_raw": "kavya.iyer40@mail.example",
+      "loyalty_tier": "silver",
+      "name": "Kavya Iyer"
+    },
+    "C10041": {
+      "country": "US",
+      "created_at": "2024-11-03",
+      "customer_id": "C10041",
+      "email": "liam.verma41@mail.example",
+      "email_raw": "liam.verma41@mail.example",
+      "loyalty_tier": "silver",
+      "name": "Liam Verma"
+    },
+    "C10042": {
+      "country": "US",
+      "created_at": "2025-03-02",
+      "customer_id": "C10042",
+      "email": "maya.haddad42@mail.example",
+      "email_raw": "maya.haddad42@mail.example",
+      "loyalty_tier": "none",
+      "name": "Maya Haddad"
+    },
+    "C10043": {
+      "country": "US",
+      "created_at": "2026-03-12",
+      "customer_id": "C10043",
+      "email": "nikhil.miller43@mail.example",
+      "email_raw": "nikhil.miller43@mail.example",
+      "loyalty_tier": "silver",
+      "name": "Nikhil Miller"
+    },
+    "C10044": {
+      "country": "CA",
+      "created_at": "2026-03-29",
+      "customer_id": "C10044",
+      "email": "olga.brown44@mail.example",
+      "email_raw": "olga.brown44@mail.example",
+      "loyalty_tier": "gold",
+      "name": "Olga Brown"
+    },
+    "C10045": {
+      "country": "US",
+      "created_at": "2026-02-04",
+      "customer_id": "C10045",
+      "email": "priya.rao45@mail.example",
+      "email_raw": "priya.rao45@mail.example",
+      "loyalty_tier": "none",
+      "name": "Priya Rao"
+    },
+    "C10046": {
+      "country": "US",
+      "created_at": "2026-05-23",
+      "customer_id": "C10046",
+      "email": "quinn.zhang46@mail.example",
+      "email_raw": "quinn.zhang46@mail.example",
+      "loyalty_tier": "none",
+      "name": "Quinn Zhang"
+    },
+    "C10047": {
+      "country": "US",
+      "created_at": "2024-05-25",
+      "customer_id": "C10047",
+      "email": "rahul.reid47@mail.example",
+      "email_raw": "rahul.reid47@mail.example",
+      "loyalty_tier": "silver",
+      "name": "Rahul Reid"
+    },
+    "C10048": {
+      "country": "US",
+      "created_at": "2024-07-02",
+      "customer_id": "C10048",
+      "email": "sara.lee48@mail.example",
+      "email_raw": "sara.lee48@mail.example",
+      "loyalty_tier": "silver",
+      "name": "Sara Lee"
+    },
+    "C10049": {
+      "country": "US",
+      "created_at": "2024-09-12",
+      "customer_id": "C10049",
+      "email": "tom.mehta49@mail.example",
+      "email_raw": "tom.mehta49@mail.example",
+      "loyalty_tier": "silver",
+      "name": "Tom Mehta"
+    },
+    "C10050": {
+      "country": "US",
+      "created_at": "2024-12-19",
+      "customer_id": "C10050",
+      "email": "uma.nair50@mail.example",
+      "email_raw": "uma.nair50@mail.example",
+      "loyalty_tier": "gold",
+      "name": "Uma Nair"
+    },
+    "C10051": {
+      "country": "US",
+      "created_at": "2025-05-09",
+      "customer_id": "C10051",
+      "email": "victor.ferrari51@mail.example",
+      "email_raw": "victor.ferrari51@mail.example",
+      "loyalty_tier": "none",
+      "name": "Victor Ferrari"
+    },
+    "C10052": {
+      "country": "US",
+      "created_at": "2025-07-25",
+      "customer_id": "C10052",
+      "email": "wen.novak52@mail.example",
+      "email_raw": "wen.novak52@mail.example",
+      "loyalty_tier": "none",
+      "name": "Wen Novak"
+    }
+  },
+  "customers_by_email": {
+    "arjun.rossi26@mail.example": "C10026",
+    "asha.shah0@mail.example": "C10000",
+    "asha.shah30@mail.example": "C10030",
+    "bella.silva27@mail.example": "C10027",
+    "ben.tanaka1@mail.example": "C10001",
+    "ben.tanaka31@mail.example": "C10031",
+    "carla.ivanova2@mail.example": "C10002",
+    "carla.ivanova32@mail.example": "C10032",
+    "chen.hughes28@mail.example": "C10028",
+    "dana.dubois29@mail.example": "C10029",
+    "dev.costa33@mail.example": "C10033",
+    "dev.costa3@mail.example": "C10003",
+    "elena.wu34@mail.example": "C10034",
+    "elena.wu4@mail.example": "C10004",
+    "farid.khan35@mail.example": "C10035",
+    "farid.khan5@mail.example": "C10005",
+    "grace.cohen36@mail.example": "C10036",
+    "grace.cohen6@mail.example": "C10006",
+    "hiro.wright37@mail.example": "C10037",
+    "hiro.wright7@mail.example": "C10007",
+    "isla.bose38@mail.example": "C10038",
+    "isla.bose8@mail.example": "C10008",
+    "jon.patel39@mail.example": "C10039",
+    "jon.patel9@mail.example": "C10009",
+    "kavya.iyer10@mail.example": "C10010",
+    "kavya.iyer40@mail.example": "C10040",
+    "liam.verma11@mail.example": "C10011",
+    "liam.verma41@mail.example": "C10041",
+    "maya.haddad12@mail.example": "C10012",
+    "maya.haddad42@mail.example": "C10042",
+    "nikhil.miller13@mail.example": "C10013",
+    "nikhil.miller43@mail.example": "C10043",
+    "olga.brown14@mail.example": "C10014",
+    "olga.brown44@mail.example": "C10044",
+    "priya.rao15@mail.example": "C10015",
+    "priya.rao45@mail.example": "C10045",
+    "quinn.zhang16@mail.example": "C10016",
+    "quinn.zhang46@mail.example": "C10046",
+    "rahul.reid17@mail.example": "C10017",
+    "rahul.reid47@mail.example": "C10047",
+    "sara.lee18@mail.example": "C10018",
+    "sara.lee48@mail.example": "C10048",
+    "tom.mehta19@mail.example": "C10019",
+    "tom.mehta49@mail.example": "C10049",
+    "uma.nair20@mail.example": "C10020",
+    "uma.nair50@mail.example": "C10050",
+    "victor.ferrari21@mail.example": "C10021",
+    "victor.ferrari51@mail.example": "C10051",
+    "wen.novak22@mail.example": "C10022",
+    "wen.novak52@mail.example": "C10052",
+    "xavier.murphy23@mail.example": "C10023",
+    "yara.lopez24@mail.example": "C10024",
+    "zoe.king25@mail.example": "C10025"
+  },
+  "findings": [
+    "orders.csv contains duplicate order_id rows: LF-100216, LF-100239 (kept first occurrence)",
+    "carrier status UNAVAILABLE (cannot verify non-delivery): LF-100212, LF-100232, LF-100238",
+    "carrier timestamp anomalies: LF-100210 last_event_at precedes shipped_at (2026-09-20T10:00 < 2026-10-03T10:00); LF-100211 last_event_at precedes shipped_at (2026-09-19T11:00 < 2026-10-04T11:00); LF-100229 last_event_at precedes shipped_at (2026-10-18T15:00 < 2026-10-28T15:00); LF-100239 last_event_at precedes shipped_at (2026-10-29T09:00 < 2026-10-29T17:00)",
+    "policy conflict: help_centre_faq_v2 says 14-day returns and $250 auto-refunds; refund_policy_RP-3.2 (effective 2026-07-01, explicitly replaces earlier guidance) says 30/45 days and $150 authority. RP-3.2 is authoritative; FAQ is not used.",
+    "warehouse_picking_WH-PICK-1.4 is internal fulfilment guidance; it does not set customer refund/return rules and is excluded from the decision engine.",
+    "tickets/support_inbox_export.json: 30 emails, 30 unique ids, 4 forwarded duplicates (T027, T028, T029, T030)",
+    "inbox/public_tickets.json: 10 unlabelled tickets"
+  ],
+  "order_items": {
+    "LF-100200": [
+      {
+        "line_no": 1,
+        "order_id": "LF-100200",
+        "product_name": "Round wall mirror",
+        "qty": 1,
+        "sku": "SKU-MIR-09",
+        "unit_price": 210.0
+      }
+    ],
+    "LF-100201": [
+      {
+        "line_no": 1,
+        "order_id": "LF-100201",
+        "product_name": "Arc floor lamp",
+        "qty": 1,
+        "sku": "SKU-LMP-01",
+        "unit_price": 129.0
+      }
+    ],
+    "LF-100202": [
+      {
+        "line_no": 1,
+        "order_id": "LF-100202",
+        "product_name": "Oak dining chair",
+        "qty": 1,
+        "sku": "SKU-CHR-07",
+        "unit_price": 185.0
+      }
+    ],
+    "LF-100203": [
+      {
+        "line_no": 1,
+        "order_id": "LF-100203",
+        "product_name": "Glass vase",
+        "qty": 1,
+        "sku": "SKU-VAS-05",
+        "unit_price": 45.0
+      }
+    ],
+    "LF-100204": [
+      {
+        "line_no": 1,
+        "order_id": "LF-100204",
+        "product_name": "Stoneware mug set (4)",
+        "qty": 1,
+        "sku": "SKU-MUG-12",
+        "unit_price": 38.0
+      }
+    ],
+    "LF-100205": [
+      {
+        "line_no": 1,
+        "order_id": "LF-100205",
+        "product_name": "Floating shelf",
+        "qty": 1,
+        "sku": "SKU-SHE-06",
+        "unit_price": 52.0
+      }
+    ],
+    "LF-100206": [
+      {
+        "line_no": 1,
+        "order_id": "LF-100206",
+        "product_name": "Floating shelf",
+        "qty": 1,
+        "sku": "SKU-SHE-06",
+        "unit_price": 52.0
+      }
+    ],
+    "LF-100207": [
+      {
+        "line_no": 1,
+        "order_id": "LF-100207",
+        "product_name": "Glass vase",
+        "qty": 1,
+        "sku": "SKU-VAS-05",
+        "unit_price": 45.0
+      }
+    ],
+    "LF-100208": [
+      {
+        "line_no": 1,
+        "order_id": "LF-100208",
+        "product_name": "Candle trio",
+        "qty": 1,
+        "sku": "SKU-CND-10",
+        "unit_price": 24.0
+      }
+    ],
+    "LF-100209": [
+      {
+        "line_no": 1,
+        "order_id": "LF-100209",
+        "product_name": "Candle trio",
+        "qty": 1,
+        "sku": "SKU-CND-10",
+        "unit_price": 24.0
+      }
+    ],
+    "LF-100210": [
+      {
+        "line_no": 1,
+        "order_id": "LF-100210",
+        "product_name": "Linen throw",
+        "qty": 1,
+        "sku": "SKU-THR-02",
+        "unit_price": 64.0
+      }
+    ],
+    "LF-100211": [
+      {
+        "line_no": 1,
+        "order_id": "LF-100211",
+        "product_name": "Wool rug 160x230",
+        "qty": 1,
+        "sku": "SKU-RUG-04",
+        "unit_price": 289.0
+      }
+    ],
+    "LF-100212": [
+      {
+        "line_no": 1,
+        "order_id": "LF-100212",
+        "product_name": "Percale duvet set",
+        "qty": 1,
+        "sku": "SKU-BED-11",
+        "unit_price": 159.0
+      }
+    ],
+    "LF-100213": [
+      {
+        "line_no": 1,
+        "order_id": "LF-100213",
+        "product_name": "Percale duvet set",
+        "qty": 1,
+        "sku": "SKU-BED-11",
+        "unit_price": 159.0
+      }
+    ],
+    "LF-100214": [
+      {
+        "line_no": 1,
+        "order_id": "LF-100214",
+        "product_name": "Candle trio",
+        "qty": 1,
+        "sku": "SKU-CND-10",
+        "unit_price": 24.0
+      }
+    ],
+    "LF-100215": [
+      {
+        "line_no": 1,
+        "order_id": "LF-100215",
+        "product_name": "Arc floor lamp",
+        "qty": 1,
+        "sku": "SKU-LMP-01",
+        "unit_price": 129.0
+      }
+    ],
+    "LF-100216": [
+      {
+        "line_no": 1,
+        "order_id": "LF-100216",
+        "product_name": "Side table",
+        "qty": 1,
+        "sku": "SKU-TBL-08",
+        "unit_price": 310.0
+      }
+    ],
+    "LF-100217": [
+      {
+        "line_no": 1,
+        "order_id": "LF-100217",
+        "product_name": "Oak dining chair",
+        "qty": 1,
+        "sku": "SKU-CHR-07",
+        "unit_price": 185.0
+      }
+    ],
+    "LF-100218": [
+      {
+        "line_no": 1,
+        "order_id": "LF-100218",
+        "product_name": "Cushion cover pair",
+        "qty": 1,
+        "sku": "SKU-PIL-03",
+        "unit_price": 27.5
+      },
+      {
+        "line_no": 2,
+        "order_id": "LF-100218",
+        "product_name": "Wool rug 160x230",
+        "qty": 1,
+        "sku": "SKU-RUG-04",
+        "unit_price": 289.0
+      }
+    ],
+    "LF-100219": [
+      {
+        "line_no": 1,
+        "order_id": "LF-100219",
+        "product_name": "Wool rug 160x230",
+        "qty": 1,
+        "sku": "SKU-RUG-04",
+        "unit_price": 289.0
+      },
+      {
+        "line_no": 2,
+        "order_id": "LF-100219",
+        "product_name": "Arc floor lamp",
+        "qty": 1,
+        "sku": "SKU-LMP-01",
+        "unit_price": 129.0
+      }
+    ],
+    "LF-100220": [
+      {
+        "line_no": 1,
+        "order_id": "LF-100220",
+        "product_name": "Cushion cover pair",
+        "qty": 1,
+        "sku": "SKU-PIL-03",
+        "unit_price": 27.5
+      },
+      {
+        "line_no": 2,
+        "order_id": "LF-100220",
+        "product_name": "Percale duvet set",
+        "qty": 1,
+        "sku": "SKU-BED-11",
+        "unit_price": 159.0
+      }
+    ],
+    "LF-100221": [
+      {
+        "line_no": 1,
+        "order_id": "LF-100221",
+        "product_name": "Stoneware mug set (4)",
+        "qty": 1,
+        "sku": "SKU-MUG-12",
+        "unit_price": 38.0
+      }
+    ],
+    "LF-100222": [
+      {
+        "line_no": 1,
+        "order_id": "LF-100222",
+        "product_name": "Glass vase",
+        "qty": 1,
+        "sku": "SKU-VAS-05",
+        "unit_price": 45.0
+      }
+    ],
+    "LF-100224": [
+      {
+        "line_no": 1,
+        "order_id": "LF-100224",
+        "product_name": "Glass vase",
+        "qty": 1,
+        "sku": "SKU-VAS-05",
+        "unit_price": 45.0
+      },
+      {
+        "line_no": 2,
+        "order_id": "LF-100224",
+        "product_name": "Oak dining chair",
+        "qty": 2,
+        "sku": "SKU-CHR-07",
+        "unit_price": 185.0
+      }
+    ],
+    "LF-100225": [
+      {
+        "line_no": 1,
+        "order_id": "LF-100225",
+        "product_name": "Linen throw",
+        "qty": 1,
+        "sku": "SKU-THR-02",
+        "unit_price": 64.0
+      }
+    ],
+    "LF-100226": [
+      {
+        "line_no": 1,
+        "order_id": "LF-100226",
+        "product_name": "Wool rug 160x230",
+        "qty": 1,
+        "sku": "SKU-RUG-04",
+        "unit_price": 289.0
+      }
+    ],
+    "LF-100227": [
+      {
+        "line_no": 1,
+        "order_id": "LF-100227",
+        "product_name": "Percale duvet set",
+        "qty": 1,
+        "sku": "SKU-BED-11",
+        "unit_price": 159.0
+      }
+    ],
+    "LF-100228": [
+      {
+        "line_no": 1,
+        "order_id": "LF-100228",
+        "product_name": "Arc floor lamp",
+        "qty": 1,
+        "sku": "SKU-LMP-01",
+        "unit_price": 129.0
+      },
+      {
+        "line_no": 2,
+        "order_id": "LF-100228",
+        "product_name": "Arc floor lamp",
+        "qty": 1,
+        "sku": "SKU-LMP-01",
+        "unit_price": 129.0
+      }
+    ],
+    "LF-100229": [
+      {
+        "line_no": 1,
+        "order_id": "LF-100229",
+        "product_name": "Oak dining chair",
+        "qty": 1,
+        "sku": "SKU-CHR-07",
+        "unit_price": 185.0
+      }
+    ],
+    "LF-100230": [
+      {
+        "line_no": 1,
+        "order_id": "LF-100230",
+        "product_name": "Glass vase",
+        "qty": 1,
+        "sku": "SKU-VAS-05",
+        "unit_price": 45.0
+      }
+    ],
+    "LF-100231": [
+      {
+        "line_no": 1,
+        "order_id": "LF-100231",
+        "product_name": "Stoneware mug set (4)",
+        "qty": 1,
+        "sku": "SKU-MUG-12",
+        "unit_price": 38.0
+      },
+      {
+        "line_no": 2,
+        "order_id": "LF-100231",
+        "product_name": "Wool rug 160x230",
+        "qty": 1,
+        "sku": "SKU-RUG-04",
+        "unit_price": 289.0
+      }
+    ],
+    "LF-100232": [
+      {
+        "line_no": 1,
+        "order_id": "LF-100232",
+        "product_name": "Stoneware mug set (4)",
+        "qty": 1,
+        "sku": "SKU-MUG-12",
+        "unit_price": 38.0
+      }
+    ],
+    "LF-100233": [
+      {
+        "line_no": 1,
+        "order_id": "LF-100233",
+        "product_name": "Floating shelf",
+        "qty": 1,
+        "sku": "SKU-SHE-06",
+        "unit_price": 52.0
+      }
+    ],
+    "LF-100234": [
+      {
+        "line_no": 1,
+        "order_id": "LF-100234",
+        "product_name": "Side table",
+        "qty": 1,
+        "sku": "SKU-TBL-08",
+        "unit_price": 310.0
+      }
+    ],
+    "LF-100235": [
+      {
+        "line_no": 1,
+        "order_id": "LF-100235",
+        "product_name": "Oak dining chair",
+        "qty": 1,
+        "sku": "SKU-CHR-07",
+        "unit_price": 185.0
+      }
+    ],
+    "LF-100236": [
+      {
+        "line_no": 1,
+        "order_id": "LF-100236",
+        "product_name": "Round wall mirror",
+        "qty": 1,
+        "sku": "SKU-MIR-09",
+        "unit_price": 210.0
+      },
+      {
+        "line_no": 2,
+        "order_id": "LF-100236",
+        "product_name": "Linen throw",
+        "qty": 1,
+        "sku": "SKU-THR-02",
+        "unit_price": 64.0
+      }
+    ],
+    "LF-100237": [
+      {
+        "line_no": 1,
+        "order_id": "LF-100237",
+        "product_name": "Percale duvet set",
+        "qty": 1,
+        "sku": "SKU-BED-11",
+        "unit_price": 159.0
+      },
+      {
+        "line_no": 2,
+        "order_id": "LF-100237",
+        "product_name": "Linen throw",
+        "qty": 1,
+        "sku": "SKU-THR-02",
+        "unit_price": 64.0
+      }
+    ],
+    "LF-100238": [
+      {
+        "line_no": 1,
+        "order_id": "LF-100238",
+        "product_name": "Side table",
+        "qty": 1,
+        "sku": "SKU-TBL-08",
+        "unit_price": 310.0
+      }
+    ],
+    "LF-100239": [
+      {
+        "line_no": 1,
+        "order_id": "LF-100239",
+        "product_name": "Oak dining chair",
+        "qty": 1,
+        "sku": "SKU-CHR-07",
+        "unit_price": 185.0
+      }
+    ],
+    "LF-100240": [
+      {
+        "line_no": 1,
+        "order_id": "LF-100240",
+        "product_name": "Cushion cover pair",
+        "qty": 1,
+        "sku": "SKU-PIL-03",
+        "unit_price": 27.5
+      }
+    ],
+    "LF-100241": [
+      {
+        "line_no": 1,
+        "order_id": "LF-100241",
+        "product_name": "Arc floor lamp",
+        "qty": 1,
+        "sku": "SKU-LMP-01",
+        "unit_price": 129.0
+      }
+    ],
+    "LF-100242": [
+      {
+        "line_no": 1,
+        "order_id": "LF-100242",
+        "product_name": "Glass vase",
+        "qty": 1,
+        "sku": "SKU-VAS-05",
+        "unit_price": 45.0
+      },
+      {
+        "line_no": 2,
+        "order_id": "LF-100242",
+        "product_name": "Round wall mirror",
+        "qty": 1,
+        "sku": "SKU-MIR-09",
+        "unit_price": 210.0
+      }
+    ],
+    "LF-100243": [
+      {
+        "line_no": 1,
+        "order_id": "LF-100243",
+        "product_name": "Glass vase",
+        "qty": 1,
+        "sku": "SKU-VAS-05",
+        "unit_price": 45.0
+      },
+      {
+        "line_no": 2,
+        "order_id": "LF-100243",
+        "product_name": "Oak dining chair",
+        "qty": 2,
+        "sku": "SKU-CHR-07",
+        "unit_price": 185.0
+      }
+    ],
+    "LF-100244": [
+      {
+        "line_no": 1,
+        "order_id": "LF-100244",
+        "product_name": "Arc floor lamp",
+        "qty": 1,
+        "sku": "SKU-LMP-01",
+        "unit_price": 129.0
+      }
+    ],
+    "LF-100245": [
+      {
+        "line_no": 1,
+        "order_id": "LF-100245",
+        "product_name": "Glass vase",
+        "qty": 1,
+        "sku": "SKU-VAS-05",
+        "unit_price": 45.0
+      }
+    ],
+    "LF-100246": [
+      {
+        "line_no": 1,
+        "order_id": "LF-100246",
+        "product_name": "Floating shelf",
+        "qty": 1,
+        "sku": "SKU-SHE-06",
+        "unit_price": 52.0
+      }
+    ],
+    "LF-100247": [
+      {
+        "line_no": 1,
+        "order_id": "LF-100247",
+        "product_name": "Stoneware mug set (4)",
+        "qty": 1,
+        "sku": "SKU-MUG-12",
+        "unit_price": 38.0
+      }
+    ]
+  },
+  "orders": {
+    "LF-100200": {
+      "currency": "USD",
+      "customer_id": "C10000",
+      "order_date_raw": "2026-08-18",
+      "order_id": "LF-100200",
+      "order_total": 210.0,
+      "payment_method": "card",
+      "shipping_fee": 0.0,
+      "status": "DELIVERED"
+    },
+    "LF-100201": {
+      "currency": "USD",
+      "customer_id": "C10001",
+      "order_date_raw": "18/09/2026",
+      "order_id": "LF-100201",
+      "order_total": 129.0,
+      "payment_method": "paypal",
+      "shipping_fee": 0.0,
+      "status": "DELIVERED"
+    },
+    "LF-100202": {
+      "currency": "USD",
+      "customer_id": "C10002",
+      "order_date_raw": "2026-09-22",
+      "order_id": "LF-100202",
+      "order_total": 185.0,
+      "payment_method": "card",
+      "shipping_fee": 0.0,
+      "status": "DELIVERED"
+    },
+    "LF-100203": {
+      "currency": "USD",
+      "customer_id": "C10003",
+      "order_date_raw": "2026-09-16",
+      "order_id": "LF-100203",
+      "order_total": 45.0,
+      "payment_method": "card",
+      "shipping_fee": 9.95,
+      "status": "DELIVERED"
+    },
+    "LF-100204": {
+      "currency": "USD",
+      "customer_id": "C10004",
+      "order_date_raw": "2026-09-18",
+      "order_id": "LF-100204",
+      "order_total": 38.0,
+      "payment_method": "paypal",
+      "shipping_fee": 9.95,
+      "status": "DELIVERED"
+    },
+    "LF-100205": {
+      "currency": "USD",
+      "customer_id": "C10005",
+      "order_date_raw": "26/09/2026",
+      "order_id": "LF-100205",
+      "order_total": 52.0,
+      "payment_method": "card",
+      "shipping_fee": 9.95,
+      "status": "DELIVERED"
+    },
+    "LF-100206": {
+      "currency": "USD",
+      "customer_id": "C10006",
+      "order_date_raw": "2026-09-26",
+      "order_id": "LF-100206",
+      "order_total": 52.0,
+      "payment_method": "paypal",
+      "shipping_fee": 9.95,
+      "status": "DELIVERED"
+    },
+    "LF-100207": {
+      "currency": "USD",
+      "customer_id": "C10007",
+      "order_date_raw": "2026-10-01",
+      "order_id": "LF-100207",
+      "order_total": 45.0,
+      "payment_method": "card",
+      "shipping_fee": 9.95,
+      "status": "SHIPPED"
+    },
+    "LF-100208": {
+      "currency": "USD",
+      "customer_id": "C10008",
+      "order_date_raw": "2026-10-02",
+      "order_id": "LF-100208",
+      "order_total": 24.0,
+      "payment_method": "card",
+      "shipping_fee": 9.95,
+      "status": "SHIPPED"
+    },
+    "LF-100209": {
+      "currency": "USD",
+      "customer_id": "C10009",
+      "order_date_raw": "30/09/2026",
+      "order_id": "LF-100209",
+      "order_total": 24.0,
+      "payment_method": "card",
+      "shipping_fee": 9.95,
+      "status": "SHIPPED"
+    },
+    "LF-100210": {
+      "currency": "USD",
+      "customer_id": "C10010",
+      "order_date_raw": "2026-10-02",
+      "order_id": "LF-100210",
+      "order_total": 64.0,
+      "payment_method": "card",
+      "shipping_fee": 9.95,
+      "status": "SHIPPED"
+    },
+    "LF-100211": {
+      "currency": "USD",
+      "customer_id": "C10011",
+      "order_date_raw": "2026-10-03",
+      "order_id": "LF-100211",
+      "order_total": 289.0,
+      "payment_method": "paypal",
+      "shipping_fee": 0.0,
+      "status": "SHIPPED"
+    },
+    "LF-100212": {
+      "currency": "USD",
+      "customer_id": "C10012",
+      "order_date_raw": "2026-10-02",
+      "order_id": "LF-100212",
+      "order_total": 159.0,
+      "payment_method": "card",
+      "shipping_fee": 0.0,
+      "status": "SHIPPED"
+    },
+    "LF-100213": {
+      "currency": "USD",
+      "customer_id": "C10013",
+      "order_date_raw": "26/08/2026",
+      "order_id": "LF-100213",
+      "order_total": 159.0,
+      "payment_method": "card",
+      "shipping_fee": 0.0,
+      "status": "DELIVERED"
+    },
+    "LF-100214": {
+      "currency": "USD",
+      "customer_id": "C10014",
+      "order_date_raw": "2026-09-12",
+      "order_id": "LF-100214",
+      "order_total": 24.0,
+      "payment_method": "paypal",
+      "shipping_fee": 9.95,
+      "status": "DELIVERED"
+    },
+    "LF-100215": {
+      "currency": "USD",
+      "customer_id": "C10015",
+      "order_date_raw": "2026-09-11",
+      "order_id": "LF-100215",
+      "order_total": 129.0,
+      "payment_method": "card",
+      "shipping_fee": 0.0,
+      "status": "DELIVERED"
+    },
+    "LF-100216": {
+      "currency": "USD",
+      "customer_id": "C10016",
+      "order_date_raw": "2026-08-20",
+      "order_id": "LF-100216",
+      "order_total": 310.0,
+      "payment_method": "card",
+      "shipping_fee": 0.0,
+      "status": "DELIVERED"
+    },
+    "LF-100217": {
+      "currency": "USD",
+      "customer_id": "C10017",
+      "order_date_raw": "23/09/2026",
+      "order_id": "LF-100217",
+      "order_total": 185.0,
+      "payment_method": "card",
+      "shipping_fee": 0.0,
+      "status": "DELIVERED"
+    },
+    "LF-100218": {
+      "currency": "USD",
+      "customer_id": "C10018",
+      "order_date_raw": "2026-09-28",
+      "order_id": "LF-100218",
+      "order_total": 316.5,
+      "payment_method": "card",
+      "shipping_fee": 0.0,
+      "status": "DELIVERED"
+    },
+    "LF-100219": {
+      "currency": "USD",
+      "customer_id": "C10019",
+      "order_date_raw": "2026-09-23",
+      "order_id": "LF-100219",
+      "order_total": 418.0,
+      "payment_method": "card",
+      "shipping_fee": 0.0,
+      "status": "DELIVERED"
+    },
+    "LF-100220": {
+      "currency": "USD",
+      "customer_id": "C10020",
+      "order_date_raw": "2026-10-02",
+      "order_id": "LF-100220",
+      "order_total": 186.5,
+      "payment_method": "card",
+      "shipping_fee": 0.0,
+      "status": "DELIVERED"
+    },
+    "LF-100221": {
+      "currency": "USD",
+      "customer_id": "C10023",
+      "order_date_raw": "08/10/2026",
+      "order_id": "LF-100221",
+      "order_total": 38.0,
+      "payment_method": "card",
+      "shipping_fee": 9.95,
+      "status": "SHIPPED"
+    },
+    "LF-100222": {
+      "currency": "USD",
+      "customer_id": "C10024",
+      "order_date_raw": "2026-10-05",
+      "order_id": "LF-100222",
+      "order_total": 45.0,
+      "payment_method": "paypal",
+      "shipping_fee": 24.95,
+      "status": "DELIVERED"
+    },
+    "LF-100224": {
+      "currency": "USD",
+      "customer_id": "C10026",
+      "order_date_raw": "2026-09-25",
+      "order_id": "LF-100224",
+      "order_total": 415.0,
+      "payment_method": "card",
+      "shipping_fee": 0.0,
+      "status": "DELIVERED"
+    },
+    "LF-100225": {
+      "currency": "USD",
+      "customer_id": "C10027",
+      "order_date_raw": "2026-09-18",
+      "order_id": "LF-100225",
+      "order_total": 64.0,
+      "payment_method": "paypal",
+      "shipping_fee": 9.95,
+      "status": "DELIVERED"
+    },
+    "LF-100226": {
+      "currency": "USD",
+      "customer_id": "C10028",
+      "order_date_raw": "26/10/2026",
+      "order_id": "LF-100226",
+      "order_total": 289.0,
+      "payment_method": "paypal",
+      "shipping_fee": 0.0,
+      "status": "DELIVERED"
+    },
+    "LF-100227": {
+      "currency": "USD",
+      "customer_id": "C10029",
+      "order_date_raw": "2026-10-28",
+      "order_id": "LF-100227",
+      "order_total": 159.0,
+      "payment_method": "card",
+      "shipping_fee": 0.0,
+      "status": "SHIPPED"
+    },
+    "LF-100228": {
+      "currency": "USD",
+      "customer_id": "C10031",
+      "order_date_raw": "2026-10-25",
+      "order_id": "LF-100228",
+      "order_total": 258.0,
+      "payment_method": "card",
+      "shipping_fee": 0.0,
+      "status": "DELIVERED"
+    },
+    "LF-100229": {
+      "currency": "USD",
+      "customer_id": "C10032",
+      "order_date_raw": "2026-10-27",
+      "order_id": "LF-100229",
+      "order_total": 185.0,
+      "payment_method": "card",
+      "shipping_fee": 0.0,
+      "status": "SHIPPED"
+    },
+    "LF-100230": {
+      "currency": "USD",
+      "customer_id": "C10033",
+      "order_date_raw": "06/10/2026",
+      "order_id": "LF-100230",
+      "order_total": 45.0,
+      "payment_method": "paypal",
+      "shipping_fee": 9.95,
+      "status": "DELIVERED"
+    },
+    "LF-100231": {
+      "currency": "USD",
+      "customer_id": "C10034",
+      "order_date_raw": "2026-10-23",
+      "order_id": "LF-100231",
+      "order_total": 327.0,
+      "payment_method": "card",
+      "shipping_fee": 0.0,
+      "status": "DELIVERED"
+    },
+    "LF-100232": {
+      "currency": "USD",
+      "customer_id": "C10035",
+      "order_date_raw": "2026-10-30",
+      "order_id": "LF-100232",
+      "order_total": 38.0,
+      "payment_method": "card",
+      "shipping_fee": 9.95,
+      "status": "SHIPPED"
+    },
+    "LF-100233": {
+      "currency": "USD",
+      "customer_id": "C10036",
+      "order_date_raw": "2026-09-13",
+      "order_id": "LF-100233",
+      "order_total": 52.0,
+      "payment_method": "paypal",
+      "shipping_fee": 9.95,
+      "status": "DELIVERED"
+    },
+    "LF-100234": {
+      "currency": "USD",
+      "customer_id": "C10037",
+      "order_date_raw": "27/10/2026",
+      "order_id": "LF-100234",
+      "order_total": 310.0,
+      "payment_method": "card",
+      "shipping_fee": 0.0,
+      "status": "DELIVERED"
+    },
+    "LF-100235": {
+      "currency": "USD",
+      "customer_id": "C10038",
+      "order_date_raw": "08/10/2026",
+      "order_id": "LF-100235",
+      "order_total": 185.0,
+      "payment_method": "card",
+      "shipping_fee": 0.0,
+      "status": "DELIVERED"
+    },
+    "LF-100236": {
+      "currency": "USD",
+      "customer_id": "C10039",
+      "order_date_raw": "2026-10-28",
+      "order_id": "LF-100236",
+      "order_total": 274.0,
+      "payment_method": "paypal",
+      "shipping_fee": 0.0,
+      "status": "DELIVERED"
+    },
+    "LF-100237": {
+      "currency": "USD",
+      "customer_id": "C10040",
+      "order_date_raw": "2026-10-25",
+      "order_id": "LF-100237",
+      "order_total": 223.0,
+      "payment_method": "paypal",
+      "shipping_fee": 0.0,
+      "status": "DELIVERED"
+    },
+    "LF-100238": {
+      "currency": "USD",
+      "customer_id": "C10043",
+      "order_date_raw": "30/10/2026",
+      "order_id": "LF-100238",
+      "order_total": 310.0,
+      "payment_method": "paypal",
+      "shipping_fee": 0.0,
+      "status": "SHIPPED"
+    },
+    "LF-100239": {
+      "currency": "USD",
+      "customer_id": "C10044",
+      "order_date_raw": "2026-10-28",
+      "order_id": "LF-100239",
+      "order_total": 185.0,
+      "payment_method": "card",
+      "shipping_fee": 0.0,
+      "status": "SHIPPED"
+    },
+    "LF-100240": {
+      "currency": "USD",
+      "customer_id": "C10045",
+      "order_date_raw": "2026-10-30",
+      "order_id": "LF-100240",
+      "order_total": 27.5,
+      "payment_method": "card",
+      "shipping_fee": 9.95,
+      "status": "SHIPPED"
+    },
+    "LF-100241": {
+      "currency": "USD",
+      "customer_id": "C10046",
+      "order_date_raw": "2026-10-23",
+      "order_id": "LF-100241",
+      "order_total": 129.0,
+      "payment_method": "paypal",
+      "shipping_fee": 24.95,
+      "status": "DELIVERED"
+    },
+    "LF-100242": {
+      "currency": "USD",
+      "customer_id": "C10047",
+      "order_date_raw": "21/10/2026",
+      "order_id": "LF-100242",
+      "order_total": 255.0,
+      "payment_method": "card",
+      "shipping_fee": 0.0,
+      "status": "DELIVERED"
+    },
+    "LF-100243": {
+      "currency": "USD",
+      "customer_id": "C10048",
+      "order_date_raw": "2026-10-19",
+      "order_id": "LF-100243",
+      "order_total": 415.0,
+      "payment_method": "card",
+      "shipping_fee": 0.0,
+      "status": "DELIVERED"
+    },
+    "LF-100244": {
+      "currency": "USD",
+      "customer_id": "C10049",
+      "order_date_raw": "2026-09-15",
+      "order_id": "LF-100244",
+      "order_total": 129.0,
+      "payment_method": "paypal",
+      "shipping_fee": 0.0,
+      "status": "DELIVERED"
+    },
+    "LF-100245": {
+      "currency": "USD",
+      "customer_id": "C10050",
+      "order_date_raw": "2026-09-21",
+      "order_id": "LF-100245",
+      "order_total": 45.0,
+      "payment_method": "paypal",
+      "shipping_fee": 9.95,
+      "status": "DELIVERED"
+    },
+    "LF-100246": {
+      "currency": "USD",
+      "customer_id": "C10051",
+      "order_date_raw": "22/09/2026",
+      "order_id": "LF-100246",
+      "order_total": 52.0,
+      "payment_method": "card",
+      "shipping_fee": 9.95,
+      "status": "DELIVERED"
+    },
+    "LF-100247": {
+      "currency": "USD",
+      "customer_id": "C10052",
+      "order_date_raw": "2026-09-15",
+      "order_id": "LF-100247",
+      "order_total": 38.0,
+      "payment_method": "paypal",
+      "shipping_fee": 9.95,
+      "status": "DELIVERED"
+    }
+  },
+  "refunds": {
+    "LF-100217:1": [
+      {
+        "amount": 185.0,
+        "approved_by": "auto",
+        "line_no": 1,
+        "order_id": "LF-100217",
+        "refund_id": "RF-900",
+        "requested_at": "2026-10-06T17:00",
+        "status": "ISSUED"
+      }
+    ],
+    "LF-100224:1": [
+      {
+        "amount": 45.0,
+        "approved_by": "auto",
+        "line_no": 1,
+        "order_id": "LF-100224",
+        "refund_id": "RF-901",
+        "requested_at": "2026-10-10T16:00",
+        "status": "ISSUED"
+      }
+    ],
+    "LF-100243:1": [
+      {
+        "amount": 45.0,
+        "approved_by": "auto",
+        "line_no": 1,
+        "order_id": "LF-100243",
+        "refund_id": "RF-902",
+        "requested_at": "2026-11-01T10:00",
+        "status": "ISSUED"
+      }
+    ]
+  },
+  "schema_version": 1,
+  "shipments": {
+    "LF-100200": [
+      {
+        "carrier": "SwiftShip",
+        "delivered_at": "2026-08-22T09:00",
+        "last_event_at": "2026-08-22T09:00",
+        "order_id": "LF-100200",
+        "shipment_id": "SHP-5000",
+        "shipped_at": "2026-08-20T09:00",
+        "status": "DELIVERED",
+        "tracking_no": "TRK106996185"
+      }
+    ],
+    "LF-100201": [
+      {
+        "carrier": "SwiftShip",
+        "delivered_at": "2026-09-22T10:00",
+        "last_event_at": "2026-09-22T10:00",
+        "order_id": "LF-100201",
+        "shipment_id": "SHP-5001",
+        "shipped_at": "2026-09-19T10:00",
+        "status": "DELIVERED",
+        "tracking_no": "TRK857801415"
+      }
+    ],
+    "LF-100202": [
+      {
+        "carrier": "NorthPost",
+        "delivered_at": "2026-09-26T11:00",
+        "last_event_at": "2026-09-26T11:00",
+        "order_id": "LF-100202",
+        "shipment_id": "SHP-5002",
+        "shipped_at": "2026-09-23T11:00",
+        "status": "DELIVERED",
+        "tracking_no": "TRK443130323"
+      }
+    ],
+    "LF-100203": [
+      {
+        "carrier": "ParcelGo",
+        "delivered_at": "2026-09-22T12:00",
+        "last_event_at": "2026-09-22T12:00",
+        "order_id": "LF-100203",
+        "shipment_id": "SHP-5003",
+        "shipped_at": "2026-09-17T12:00",
+        "status": "DELIVERED",
+        "tracking_no": "TRK893788050"
+      }
+    ],
+    "LF-100204": [
+      {
+        "carrier": "ParcelGo",
+        "delivered_at": "2026-09-22T13:00",
+        "last_event_at": "2026-09-22T13:00",
+        "order_id": "LF-100204",
+        "shipment_id": "SHP-5004",
+        "shipped_at": "2026-09-19T13:00",
+        "status": "DELIVERED",
+        "tracking_no": "TRK671879768"
+      }
+    ],
+    "LF-100205": [
+      {
+        "carrier": "SwiftShip",
+        "delivered_at": "2026-10-01T14:00",
+        "last_event_at": "2026-10-01T14:00",
+        "order_id": "LF-100205",
+        "shipment_id": "SHP-5005",
+        "shipped_at": "2026-09-27T14:00",
+        "status": "DELIVERED",
+        "tracking_no": "TRK569663338"
+      }
+    ],
+    "LF-100206": [
+      {
+        "carrier": "ParcelGo",
+        "delivered_at": "2026-10-02T15:00",
+        "last_event_at": "2026-10-02T15:00",
+        "order_id": "LF-100206",
+        "shipment_id": "SHP-5006",
+        "shipped_at": "2026-09-27T15:00",
+        "status": "DELIVERED",
+        "tracking_no": "TRK692251917"
+      }
+    ],
+    "LF-100207": [
+      {
+        "carrier": "NorthPost",
+        "delivered_at": "",
+        "last_event_at": "2026-10-03T16:00",
+        "order_id": "LF-100207",
+        "shipment_id": "SHP-5007",
+        "shipped_at": "2026-10-02T16:00",
+        "status": "IN_TRANSIT",
+        "tracking_no": "TRK215608586"
+      }
+    ],
+    "LF-100208": [
+      {
+        "carrier": "NorthPost",
+        "delivered_at": "",
+        "last_event_at": "2026-10-04T17:00",
+        "order_id": "LF-100208",
+        "shipment_id": "SHP-5008",
+        "shipped_at": "2026-10-03T17:00",
+        "status": "IN_TRANSIT",
+        "tracking_no": "TRK498717581"
+      }
+    ],
+    "LF-100209": [
+      {
+        "carrier": "NorthPost",
+        "delivered_at": "",
+        "last_event_at": "2026-10-04T09:00",
+        "order_id": "LF-100209",
+        "shipment_id": "SHP-5009",
+        "shipped_at": "2026-10-01T09:00",
+        "status": "IN_TRANSIT",
+        "tracking_no": "TRK544131291"
+      }
+    ],
+    "LF-100210": [
+      {
+        "carrier": "SwiftShip",
+        "delivered_at": "",
+        "last_event_at": "2026-09-20T10:00",
+        "order_id": "LF-100210",
+        "shipment_id": "SHP-5010",
+        "shipped_at": "2026-10-03T10:00",
+        "status": "IN_TRANSIT",
+        "tracking_no": "TRK834022685"
+      }
+    ],
+    "LF-100211": [
+      {
+        "carrier": "NorthPost",
+        "delivered_at": "",
+        "last_event_at": "2026-09-19T11:00",
+        "order_id": "LF-100211",
+        "shipment_id": "SHP-5011",
+        "shipped_at": "2026-10-04T11:00",
+        "status": "IN_TRANSIT",
+        "tracking_no": "TRK679884388"
+      }
+    ],
+    "LF-100212": [
+      {
+        "carrier": "SwiftShip",
+        "delivered_at": "",
+        "last_event_at": "",
+        "order_id": "LF-100212",
+        "shipment_id": "SHP-5012",
+        "shipped_at": "2026-10-03T12:00",
+        "status": "UNAVAILABLE",
+        "tracking_no": "TRK887983898"
+      }
+    ],
+    "LF-100213": [
+      {
+        "carrier": "NorthPost",
+        "delivered_at": "2026-08-30T13:00",
+        "last_event_at": "2026-08-30T13:00",
+        "order_id": "LF-100213",
+        "shipment_id": "SHP-5013",
+        "shipped_at": "2026-08-27T13:00",
+        "status": "DELIVERED",
+        "tracking_no": "TRK681745713"
+      }
+    ],
+    "LF-100214": [
+      {
+        "carrier": "NorthPost",
+        "delivered_at": "2026-09-18T14:00",
+        "last_event_at": "2026-09-18T14:00",
+        "order_id": "LF-100214",
+        "shipment_id": "SHP-5014",
+        "shipped_at": "2026-09-13T14:00",
+        "status": "DELIVERED",
+        "tracking_no": "TRK134028684"
+      }
+    ],
+    "LF-100215": [
+      {
+        "carrier": "SwiftShip",
+        "delivered_at": "2026-09-16T15:00",
+        "last_event_at": "2026-09-16T15:00",
+        "order_id": "LF-100215",
+        "shipment_id": "SHP-5015",
+        "shipped_at": "2026-09-12T15:00",
+        "status": "DELIVERED",
+        "tracking_no": "TRK285498052"
+      }
+    ],
+    "LF-100216": [
+      {
+        "carrier": "ParcelGo",
+        "delivered_at": "2026-08-25T16:00",
+        "last_event_at": "2026-08-25T16:00",
+        "order_id": "LF-100216",
+        "shipment_id": "SHP-5016",
+        "shipped_at": "2026-08-21T16:00",
+        "status": "DELIVERED",
+        "tracking_no": "TRK246377601"
+      }
+    ],
+    "LF-100217": [
+      {
+        "carrier": "SwiftShip",
+        "delivered_at": "2026-09-29T17:00",
+        "last_event_at": "2026-09-29T17:00",
+        "order_id": "LF-100217",
+        "shipment_id": "SHP-5017",
+        "shipped_at": "2026-09-24T17:00",
+        "status": "DELIVERED",
+        "tracking_no": "TRK973418091"
+      }
+    ],
+    "LF-100218": [
+      {
+        "carrier": "ParcelGo",
+        "delivered_at": "2026-10-04T09:00",
+        "last_event_at": "2026-10-04T09:00",
+        "order_id": "LF-100218",
+        "shipment_id": "SHP-5018",
+        "shipped_at": "2026-09-29T09:00",
+        "status": "DELIVERED",
+        "tracking_no": "TRK988721236"
+      }
+    ],
+    "LF-100219": [
+      {
+        "carrier": "SwiftShip",
+        "delivered_at": "2026-09-28T10:00",
+        "last_event_at": "2026-09-28T10:00",
+        "order_id": "LF-100219",
+        "shipment_id": "SHP-5019",
+        "shipped_at": "2026-09-24T10:00",
+        "status": "DELIVERED",
+        "tracking_no": "TRK308989443"
+      }
+    ],
+    "LF-100220": [
+      {
+        "carrier": "ParcelGo",
+        "delivered_at": "2026-10-06T11:00",
+        "last_event_at": "2026-10-06T11:00",
+        "order_id": "LF-100220",
+        "shipment_id": "SHP-5020",
+        "shipped_at": "2026-10-03T11:00",
+        "status": "DELIVERED",
+        "tracking_no": "TRK441828947"
+      }
+    ],
+    "LF-100221": [
+      {
+        "carrier": "SwiftShip",
+        "delivered_at": "",
+        "last_event_at": "2026-10-02T06:00",
+        "order_id": "LF-100221",
+        "shipment_id": "SHP-5021",
+        "shipped_at": "2026-09-30T06:00",
+        "status": "IN_TRANSIT",
+        "tracking_no": "TRK284460209"
+      }
+    ],
+    "LF-100222": [
+      {
+        "carrier": "NorthPost",
+        "delivered_at": "2026-10-08T15:00",
+        "last_event_at": "2026-10-08T15:00",
+        "order_id": "LF-100222",
+        "shipment_id": "SHP-5022",
+        "shipped_at": "2026-10-06T15:00",
+        "status": "DELIVERED",
+        "tracking_no": "TRK463182433"
+      }
+    ],
+    "LF-100224": [
+      {
+        "carrier": "ParcelGo",
+        "delivered_at": "2026-10-01T16:00",
+        "last_event_at": "2026-10-01T16:00",
+        "order_id": "LF-100224",
+        "shipment_id": "SHP-5024",
+        "shipped_at": "2026-09-26T16:00",
+        "status": "DELIVERED",
+        "tracking_no": "TRK893256823"
+      }
+    ],
+    "LF-100225": [
+      {
+        "carrier": "SwiftShip",
+        "delivered_at": "2026-09-23T10:00",
+        "last_event_at": "2026-09-23T10:00",
+        "order_id": "LF-100225",
+        "shipment_id": "SHP-5025",
+        "shipped_at": "2026-09-19T10:00",
+        "status": "DELIVERED",
+        "tracking_no": "TRK515516507"
+      }
+    ],
+    "LF-100226": [
+      {
+        "carrier": "ParcelGo",
+        "delivered_at": "2026-10-29T11:00",
+        "last_event_at": "2026-10-29T11:00",
+        "order_id": "LF-100226",
+        "shipment_id": "SHP-5026",
+        "shipped_at": "2026-10-27T11:00",
+        "status": "DELIVERED",
+        "tracking_no": "TRK985334239"
+      }
+    ],
+    "LF-100227": [
+      {
+        "carrier": "NorthPost",
+        "delivered_at": "",
+        "last_event_at": "2026-11-01T12:00",
+        "order_id": "LF-100227",
+        "shipment_id": "SHP-5027",
+        "shipped_at": "2026-10-29T12:00",
+        "status": "IN_TRANSIT",
+        "tracking_no": "TRK951952643"
+      }
+    ],
+    "LF-100228": [
+      {
+        "carrier": "ParcelGo",
+        "delivered_at": "2026-10-30T14:00",
+        "last_event_at": "2026-10-30T14:00",
+        "order_id": "LF-100228",
+        "shipment_id": "SHP-5028",
+        "shipped_at": "2026-10-26T14:00",
+        "status": "DELIVERED",
+        "tracking_no": "TRK177300567"
+      }
+    ],
+    "LF-100229": [
+      {
+        "carrier": "NorthPost",
+        "delivered_at": "",
+        "last_event_at": "2026-10-18T15:00",
+        "order_id": "LF-100229",
+        "shipment_id": "SHP-5029",
+        "shipped_at": "2026-10-28T15:00",
+        "status": "IN_TRANSIT",
+        "tracking_no": "TRK620038093"
+      }
+    ],
+    "LF-100230": [
+      {
+        "carrier": "SwiftShip",
+        "delivered_at": "2026-10-11T16:00",
+        "last_event_at": "2026-10-11T16:00",
+        "order_id": "LF-100230",
+        "shipment_id": "SHP-5030",
+        "shipped_at": "2026-10-07T16:00",
+        "status": "DELIVERED",
+        "tracking_no": "TRK527260134"
+      }
+    ],
+    "LF-100231": [
+      {
+        "carrier": "NorthPost",
+        "delivered_at": "2026-10-27T17:00",
+        "last_event_at": "2026-10-27T17:00",
+        "order_id": "LF-100231",
+        "shipment_id": "SHP-5031",
+        "shipped_at": "2026-10-24T17:00",
+        "status": "DELIVERED",
+        "tracking_no": "TRK156719910"
+      }
+    ],
+    "LF-100232": [
+      {
+        "carrier": "SwiftShip",
+        "delivered_at": "",
+        "last_event_at": "",
+        "order_id": "LF-100232",
+        "shipment_id": "SHP-5032",
+        "shipped_at": "2026-10-31T18:00",
+        "status": "UNAVAILABLE",
+        "tracking_no": "TRK160138494"
+      }
+    ],
+    "LF-100233": [
+      {
+        "carrier": "NorthPost",
+        "delivered_at": "2026-09-18T19:00",
+        "last_event_at": "2026-09-18T19:00",
+        "order_id": "LF-100233",
+        "shipment_id": "SHP-5033",
+        "shipped_at": "2026-09-14T19:00",
+        "status": "DELIVERED",
+        "tracking_no": "TRK829618624"
+      }
+    ],
+    "LF-100234": [
+      {
+        "carrier": "NorthPost",
+        "delivered_at": "2026-10-31T10:00",
+        "last_event_at": "2026-10-31T10:00",
+        "order_id": "LF-100234",
+        "shipment_id": "SHP-5034",
+        "shipped_at": "2026-10-28T10:00",
+        "status": "DELIVERED",
+        "tracking_no": "TRK306040421"
+      }
+    ],
+    "LF-100235": [
+      {
+        "carrier": "NorthPost",
+        "delivered_at": "2026-10-14T11:00",
+        "last_event_at": "2026-10-14T11:00",
+        "order_id": "LF-100235",
+        "shipment_id": "SHP-5035",
+        "shipped_at": "2026-10-10T11:00",
+        "status": "DELIVERED",
+        "tracking_no": "TRK874861671"
+      }
+    ],
+    "LF-100236": [
+      {
+        "carrier": "ParcelGo",
+        "delivered_at": "2026-11-01T12:00",
+        "last_event_at": "2026-11-01T12:00",
+        "order_id": "LF-100236",
+        "shipment_id": "SHP-5036",
+        "shipped_at": "2026-10-29T12:00",
+        "status": "DELIVERED",
+        "tracking_no": "TRK196360977"
+      }
+    ],
+    "LF-100237": [
+      {
+        "carrier": "NorthPost",
+        "delivered_at": "2026-10-30T13:00",
+        "last_event_at": "2026-10-30T13:00",
+        "order_id": "LF-100237",
+        "shipment_id": "SHP-5037",
+        "shipped_at": "2026-10-26T13:00",
+        "status": "DELIVERED",
+        "tracking_no": "TRK982384195"
+      }
+    ],
+    "LF-100238": [
+      {
+        "carrier": "ParcelGo",
+        "delivered_at": "",
+        "last_event_at": "",
+        "order_id": "LF-100238",
+        "shipment_id": "SHP-5038",
+        "shipped_at": "2026-10-31T16:00",
+        "status": "UNAVAILABLE",
+        "tracking_no": "TRK753918443"
+      }
+    ],
+    "LF-100239": [
+      {
+        "carrier": "NorthPost",
+        "delivered_at": "",
+        "last_event_at": "2026-10-29T09:00",
+        "order_id": "LF-100239",
+        "shipment_id": "SHP-5039",
+        "shipped_at": "2026-10-29T17:00",
+        "status": "IN_TRANSIT",
+        "tracking_no": "TRK384459859"
+      }
+    ],
+    "LF-100240": [
+      {
+        "carrier": "ParcelGo",
+        "delivered_at": "",
+        "last_event_at": "2026-10-24T06:00",
+        "order_id": "LF-100240",
+        "shipment_id": "SHP-5040",
+        "shipped_at": "2026-10-22T06:00",
+        "status": "IN_TRANSIT",
+        "tracking_no": "TRK587477490"
+      }
+    ],
+    "LF-100241": [
+      {
+        "carrier": "ParcelGo",
+        "delivered_at": "2026-10-29T19:00",
+        "last_event_at": "2026-10-29T19:00",
+        "order_id": "LF-100241",
+        "shipment_id": "SHP-5041",
+        "shipped_at": "2026-10-24T19:00",
+        "status": "DELIVERED",
+        "tracking_no": "TRK556107662"
+      }
+    ],
+    "LF-100242": [
+      {
+        "carrier": "ParcelGo",
+        "delivered_at": "2026-10-27T20:00",
+        "last_event_at": "2026-10-27T20:00",
+        "order_id": "LF-100242",
+        "shipment_id": "SHP-5042",
+        "shipped_at": "2026-10-22T20:00",
+        "status": "DELIVERED",
+        "tracking_no": "TRK207963475"
+      }
+    ],
+    "LF-100243": [
+      {
+        "carrier": "NorthPost",
+        "delivered_at": "2026-10-23T10:00",
+        "last_event_at": "2026-10-23T10:00",
+        "order_id": "LF-100243",
+        "shipment_id": "SHP-5043",
+        "shipped_at": "2026-10-20T10:00",
+        "status": "DELIVERED",
+        "tracking_no": "TRK878682734"
+      }
+    ],
+    "LF-100244": [
+      {
+        "carrier": "ParcelGo",
+        "delivered_at": "2026-09-20T11:00",
+        "last_event_at": "2026-09-20T11:00",
+        "order_id": "LF-100244",
+        "shipment_id": "SHP-5044",
+        "shipped_at": "2026-09-16T11:00",
+        "status": "DELIVERED",
+        "tracking_no": "TRK394902861"
+      }
+    ],
+    "LF-100245": [
+      {
+        "carrier": "SwiftShip",
+        "delivered_at": "2026-09-25T12:00",
+        "last_event_at": "2026-09-25T12:00",
+        "order_id": "LF-100245",
+        "shipment_id": "SHP-5045",
+        "shipped_at": "2026-09-22T12:00",
+        "status": "DELIVERED",
+        "tracking_no": "TRK324064248"
+      }
+    ],
+    "LF-100246": [
+      {
+        "carrier": "SwiftShip",
+        "delivered_at": "2026-09-25T13:00",
+        "last_event_at": "2026-09-25T13:00",
+        "order_id": "LF-100246",
+        "shipment_id": "SHP-5046",
+        "shipped_at": "2026-09-23T13:00",
+        "status": "DELIVERED",
+        "tracking_no": "TRK865138929"
+      }
+    ],
+    "LF-100247": [
+      {
+        "carrier": "SwiftShip",
+        "delivered_at": "2026-09-19T14:00",
+        "last_event_at": "2026-09-19T14:00",
+        "order_id": "LF-100247",
+        "shipment_id": "SHP-5047",
+        "shipped_at": "2026-09-16T14:00",
+        "status": "DELIVERED",
+        "tracking_no": "TRK387459523"
+      }
+    ]
+  },
+  "source_hashes": {
+    "DATA_DICTIONARY.md": "35ec7c7d205300c07d43b13f28391a0107366a162434a714c30259caa51c2448",
+    "data/customers.csv": "08cd900cb7ba4e130542fa7cccdb11a20142eb8a533135ab9bb6449d671feb4f",
+    "data/order_items.csv": "96453085aa8f2917739f9d2de65303ba79841c626d75d13d3030f8fb54a664ea",
+    "data/orders.csv": "50e3dfa8f02f945d449df7c80fbf6cc6ca7d2dff5c5d63afa702da95e78cd7e5",
+    "data/refunds.csv": "b472799df80ae7e6fceb7ae22a104df2c365dea73665b3f4fa407d7a3801df69",
+    "data/shipments.csv": "3f3f5337f941bb97a9d1579fcefcd8cc668f377793628ceadad6e4933c2384ab",
+    "inbox/public_tickets.json": "aa8445fb43d70b336047f8fe4f071527c11c6213f8ad65f968168caf1a322aca",
+    "policies/help_centre_faq_v2.md": "825d70f14522c9626bf3dff86d91d5a074132311021a0e2942e5d75c41788876",
+    "policies/refund_policy_RP-3.2.md": "51885caf267fac030db5e6a80245f38cf89ce30701ff8333909b24620cd03dfd",
+    "policies/warehouse_picking_WH-PICK-1.4.md": "180402103bdbc4ee3f127aa4897cf78e6d97fc3d04336bd6718547b9bb2dc750",
+    "schema/response_schema.py": "9a47b3f8ac12cecd63c1b38eabb09f29440e01bd2e6acad25da1cef447cdef2a",
+    "tickets/eval_seed_labelled.json": "1f8b5f5a7cb029d2440a77ced920319ebfc396251d33bdb147331eef1e26815a",
+    "tickets/support_inbox_export.json": "599a07066476d5b476b276b9fe54f8c3e2bab0c8eb73071aaffa1dc935817291"
+  }
+}

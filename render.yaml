@@ -1,0 +1,22 @@
+services:
+  - type: web
+    name: larkfield-support-agent
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt && python prepare.py
+    startCommand: uvicorn src.app:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.9
+      - key: LLM_ASSIST
+        value: "on"
+      - key: GROQ_MODEL
+        value: openai/gpt-oss-120b
+      - key: PRICE_INPUT_PER_M
+        value: "0.15"
+      - key: PRICE_OUTPUT_PER_M
+        value: "0.60"
+      # Set GROQ_API_KEY in the Render dashboard. Never commit it. The service
+      # also works without it: LLM assist is optional and policy is deterministic.
+      - key: GROQ_API_KEY
+        sync: false

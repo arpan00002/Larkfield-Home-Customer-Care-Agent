@@ -1,0 +1,2246 @@
+{
+  "generated_at": "2026-11-09T16:59:42.629305+00:00",
+  "variant": "after",
+  "change": "Enabled RP-3.2 2.6 photo-backed 31-45 day damage exception",
+  "config": {
+    "llm_assist": "off",
+    "cases": "cases.json"
+  },
+  "summary": {
+    "total": 36,
+    "passed": 36,
+    "failed": 0,
+    "pass_rate": 1.0,
+    "median_cost_usd": 0.0,
+    "mean_cost_usd": 0.0,
+    "median_latency_ms": 62.67,
+    "p95_latency_ms": 68.51,
+    "by_kind": {
+      "labelled_seed": {
+        "total": 15,
+        "passed": 15
+      },
+      "public_regression": {
+        "total": 10,
+        "passed": 10
+      },
+      "PROMPT_INJECTION": {
+        "total": 1,
+        "passed": 1
+      },
+      "OUT_OF_WINDOW": {
+        "total": 1,
+        "passed": 1
+      },
+      "ALREADY_REFUNDED": {
+        "total": 1,
+        "passed": 1
+      },
+      "CUSTOMER_MISMATCH": {
+        "total": 1,
+        "passed": 1
+      },
+      "ORDER_NOT_FOUND": {
+        "total": 1,
+        "passed": 1
+      },
+      "CARRIER_UNAVAILABLE": {
+        "total": 1,
+        "passed": 1
+      },
+      "OVER_AUTHORITY": {
+        "total": 1,
+        "passed": 1
+      },
+      "DUPLICATE_REQUEST": {
+        "total": 1,
+        "passed": 1
+      },
+      "DAMAGE_NO_PHOTO": {
+        "total": 1,
+        "passed": 1
+      },
+      "PARTIAL_LINES": {
+        "total": 1,
+        "passed": 1
+      },
+      "LOST_IN_TRANSIT": {
+        "total": 1,
+        "passed": 1
+      }
+    },
+    "failure_counts": {}
+  },
+  "cases": [
+    {
+      "case_id": "T001",
+      "kind": "labelled_seed",
+      "negative_kind": null,
+      "passed": true,
+      "failures": [],
+      "expected": {
+        "outcome": "PEND",
+        "human_approval_required": true,
+        "approver_role": "SUPPORT_LEAD",
+        "reason_codes": [
+          "DAMAGE_EXCEPTION",
+          "APPROVAL_REQUIRED"
+        ],
+        "amount_usd": 210.0
+      },
+      "actual": {
+        "outcome": "PEND",
+        "human_approval_required": true,
+        "approver_role": "SUPPORT_LEAD",
+        "reason_codes": [
+          "DAMAGE_EXCEPTION",
+          "APPROVAL_REQUIRED"
+        ],
+        "resolved": {
+          "order_id": "LF-100200",
+          "customer_id": "C10000"
+        },
+        "ledger": [
+          {
+            "run_id": "run_e4ea73854b9d49bead329080bef3a9fd",
+            "ticket_id": "T001",
+            "action": "REFUND",
+            "amount_usd": 210.0,
+            "status": "PROPOSED",
+            "recorded_at": "2026-11-09T16:59:42.647523+00:00"
+          }
+        ],
+        "duplicate_of_run_id": null,
+        "trace": {
+          "model_calls": [],
+          "tools_called": [
+            "normalize_sender",
+            "extract_order_id",
+            "lookup_customer",
+            "lookup_order",
+            "lookup_order_items",
+            "lookup_shipments",
+            "match_product_lines",
+            "lookup_refunds",
+            "draft_reply"
+          ],
+          "documents_used": [
+            {
+              "document": "refund_policy_RP-3.2.md",
+              "version": "3.2"
+            }
+          ],
+          "cost_usd": 0.0,
+          "latency_ms": 18.7,
+          "assist_mode": "off"
+        }
+      },
+      "wall_latency_ms": 79.98
+    },
+    {
+      "case_id": "T002",
+      "kind": "labelled_seed",
+      "negative_kind": null,
+      "passed": true,
+      "failures": [],
+      "expected": {
+        "outcome": "PROCEED",
+        "human_approval_required": false,
+        "approver_role": null
+      },
+      "actual": {
+        "outcome": "PROCEED",
+        "human_approval_required": false,
+        "approver_role": null,
+        "reason_codes": [],
+        "resolved": {
+          "order_id": "LF-100201",
+          "customer_id": "C10001"
+        },
+        "ledger": [
+          {
+            "run_id": "run_c21fb589cb2142c48f921b14b6928d38",
+            "ticket_id": "T002",
+            "action": "REFUND",
+            "amount_usd": 129.0,
+            "status": "APPROVED",
+            "recorded_at": "2026-11-09T16:59:42.719055+00:00"
+          }
+        ],
+        "duplicate_of_run_id": null,
+        "trace": {
+          "model_calls": [],
+          "tools_called": [
+            "normalize_sender",
+            "extract_order_id",
+            "lookup_customer",
+            "lookup_order",
+            "lookup_order_items",
+            "lookup_shipments",
+            "match_product_lines",
+            "lookup_refunds",
+            "draft_reply"
+          ],
+          "documents_used": [
+            {
+              "document": "refund_policy_RP-3.2.md",
+              "version": "3.2"
+            }
+          ],
+          "cost_usd": 0.0,
+          "latency_ms": 10.73,
+          "assist_mode": "off"
+        }
+      },
+      "wall_latency_ms": 62.13
+    },
+    {
+      "case_id": "T003",
+      "kind": "labelled_seed",
+      "negative_kind": null,
+      "passed": true,
+      "failures": [],
+      "expected": {
+        "outcome": "PEND",
+        "human_approval_required": true,
+        "approver_role": "SUPPORT_LEAD"
+      },
+      "actual": {
+        "outcome": "PEND",
+        "human_approval_required": true,
+        "approver_role": "SUPPORT_LEAD",
+        "reason_codes": [
+          "APPROVAL_REQUIRED"
+        ],
+        "resolved": {
+          "order_id": "LF-100202",
+          "customer_id": "C10002"
+        },
+        "ledger": [
+          {
+            "run_id": "run_9bd1438e2d8b4b9bba51f95f5995322a",
+            "ticket_id": "T003",
+            "action": "REFUND",
+            "amount_usd": 185.0,
+            "status": "PROPOSED",
+            "recorded_at": "2026-11-09T16:59:42.776289+00:00"
+          }
+        ],
+        "duplicate_of_run_id": null,
+        "trace": {
+          "model_calls": [],
+          "tools_called": [
+            "normalize_sender",
+            "extract_order_id",
+            "lookup_customer",
+            "lookup_order",
+            "lookup_order_items",
+            "lookup_shipments",
+            "match_product_lines",
+            "lookup_refunds",
+            "draft_reply"
+          ],
+          "documents_used": [
+            {
+              "document": "refund_policy_RP-3.2.md",
+              "version": "3.2"
+            }
+          ],
+          "cost_usd": 0.0,
+          "latency_ms": 12.61,
+          "assist_mode": "off"
+        }
+      },
+      "wall_latency_ms": 68.35
+    },
+    {
+      "case_id": "T004",
+      "kind": "labelled_seed",
+      "negative_kind": null,
+      "passed": true,
+      "failures": [],
+      "expected": {
+        "outcome": "PROCEED",
+        "human_approval_required": false,
+        "approver_role": null
+      },
+      "actual": {
+        "outcome": "PROCEED",
+        "human_approval_required": false,
+        "approver_role": null,
+        "reason_codes": [],
+        "resolved": {
+          "order_id": "LF-100203",
+          "customer_id": "C10003"
+        },
+        "ledger": [
+          {
+            "run_id": "run_5099e15cad5d4503afeda37761350a8b",
+            "ticket_id": "T004",
+            "action": "REFUND",
+            "amount_usd": 45.0,
+            "status": "APPROVED",
+            "recorded_at": "2026-11-09T16:59:42.850795+00:00"
+          }
+        ],
+        "duplicate_of_run_id": null,
+        "trace": {
+          "model_calls": [],
+          "tools_called": [
+            "normalize_sender",
+            "extract_order_id",
+            "lookup_customer",
+            "lookup_order",
+            "lookup_order_items",
+            "lookup_shipments",
+            "match_product_lines",
+            "lookup_refunds",
+            "draft_reply"
+          ],
+          "documents_used": [
+            {
+              "document": "refund_policy_RP-3.2.md",
+              "version": "3.2"
+            }
+          ],
+          "cost_usd": 0.0,
+          "latency_ms": 12.18,
+          "assist_mode": "off"
+        }
+      },
+      "wall_latency_ms": 65.44
+    },
+    {
+      "case_id": "T005",
+      "kind": "labelled_seed",
+      "negative_kind": null,
+      "passed": true,
+      "failures": [],
+      "expected": {
+        "outcome": "PROCEED",
+        "human_approval_required": false,
+        "approver_role": null
+      },
+      "actual": {
+        "outcome": "PROCEED",
+        "human_approval_required": false,
+        "approver_role": null,
+        "reason_codes": [],
+        "resolved": {
+          "order_id": "LF-100204",
+          "customer_id": "C10004"
+        },
+        "ledger": [
+          {
+            "run_id": "run_611d51f126e64af09525500dba6bf6c1",
+            "ticket_id": "T005",
+            "action": "REFUND",
+            "amount_usd": 38.0,
+            "status": "APPROVED",
+            "recorded_at": "2026-11-09T16:59:42.916503+00:00"
+          }
+        ],
+        "duplicate_of_run_id": null,
+        "trace": {
+          "model_calls": [],
+          "tools_called": [
+            "normalize_sender",
+            "extract_order_id",
+            "lookup_customer",
+            "lookup_order",
+            "lookup_order_items",
+            "lookup_shipments",
+            "match_product_lines",
+            "lookup_refunds",
+            "draft_reply"
+          ],
+          "documents_used": [
+            {
+              "document": "refund_policy_RP-3.2.md",
+              "version": "3.2"
+            }
+          ],
+          "cost_usd": 0.0,
+          "latency_ms": 11.71,
+          "assist_mode": "off"
+        }
+      },
+      "wall_latency_ms": 68.66
+    },
+    {
+      "case_id": "T006",
+      "kind": "labelled_seed",
+      "negative_kind": null,
+      "passed": true,
+      "failures": [],
+      "expected": {
+        "outcome": "PROCEED",
+        "human_approval_required": false,
+        "approver_role": null
+      },
+      "actual": {
+        "outcome": "PROCEED",
+        "human_approval_required": false,
+        "approver_role": null,
+        "reason_codes": [],
+        "resolved": {
+          "order_id": "LF-100205",
+          "customer_id": "C10005"
+        },
+        "ledger": [
+          {
+            "run_id": "run_cb53d11ab6ac4fd4a4bf9d184057cfa4",
+            "ticket_id": "T006",
+            "action": "REFUND",
+            "amount_usd": 52.0,
+            "status": "APPROVED",
+            "recorded_at": "2026-11-09T16:59:42.986849+00:00"
+          }
+        ],
+        "duplicate_of_run_id": null,
+        "trace": {
+          "model_calls": [],
+          "tools_called": [
+            "normalize_sender",
+            "extract_order_id",
+            "lookup_customer",
+            "lookup_order",
+            "lookup_order_items",
+            "lookup_shipments",
+            "match_product_lines",
+            "lookup_refunds",
+            "draft_reply"
+          ],
+          "documents_used": [
+            {
+              "document": "refund_policy_RP-3.2.md",
+              "version": "3.2"
+            }
+          ],
+          "cost_usd": 0.0,
+          "latency_ms": 12.58,
+          "assist_mode": "off"
+        }
+      },
+      "wall_latency_ms": 63.71
+    },
+    {
+      "case_id": "T008",
+      "kind": "labelled_seed",
+      "negative_kind": null,
+      "passed": true,
+      "failures": [],
+      "expected": {
+        "outcome": "PROCEED",
+        "human_approval_required": false,
+        "approver_role": null
+      },
+      "actual": {
+        "outcome": "PROCEED",
+        "human_approval_required": false,
+        "approver_role": null,
+        "reason_codes": [],
+        "resolved": {
+          "order_id": "LF-100207",
+          "customer_id": "C10007"
+        },
+        "ledger": [
+          {
+            "run_id": "run_76e4d16c36834dd09734e2c41f31543b",
+            "ticket_id": "T008",
+            "action": "REPLY",
+            "amount_usd": null,
+            "status": "APPROVED",
+            "recorded_at": "2026-11-09T16:59:43.043901+00:00"
+          }
+        ],
+        "duplicate_of_run_id": null,
+        "trace": {
+          "model_calls": [],
+          "tools_called": [
+            "normalize_sender",
+            "extract_order_id",
+            "lookup_customer",
+            "lookup_order",
+            "lookup_order_items",
+            "lookup_shipments",
+            "draft_reply"
+          ],
+          "documents_used": [
+            {
+              "document": "refund_policy_RP-3.2.md",
+              "version": "3.2"
+            }
+          ],
+          "cost_usd": 0.0,
+          "latency_ms": 6.15,
+          "assist_mode": "off"
+        }
+      },
+      "wall_latency_ms": 59.72
+    },
+    {
+      "case_id": "T011",
+      "kind": "labelled_seed",
+      "negative_kind": null,
+      "passed": true,
+      "failures": [],
+      "expected": {
+        "outcome": "ESCALATE",
+        "human_approval_required": true,
+        "approver_role": "CARRIER_CLAIMS"
+      },
+      "actual": {
+        "outcome": "ESCALATE",
+        "human_approval_required": true,
+        "approver_role": "CARRIER_CLAIMS",
+        "reason_codes": [
+          "LOST_IN_TRANSIT"
+        ],
+        "resolved": {
+          "order_id": "LF-100210",
+          "customer_id": "C10010"
+        },
+        "ledger": [
+          {
+            "run_id": "run_9245523733c046d4a61a19292140bfa2",
+            "ticket_id": "T011",
+            "action": "ESCALATION",
+            "amount_usd": null,
+            "status": "PROPOSED",
+            "recorded_at": "2026-11-09T16:59:43.102100+00:00"
+          }
+        ],
+        "duplicate_of_run_id": null,
+        "trace": {
+          "model_calls": [],
+          "tools_called": [
+            "normalize_sender",
+            "extract_order_id",
+            "lookup_customer",
+            "lookup_order",
+            "lookup_order_items",
+            "lookup_shipments",
+            "draft_reply"
+          ],
+          "documents_used": [
+            {
+              "document": "refund_policy_RP-3.2.md",
+              "version": "3.2"
+            }
+          ],
+          "cost_usd": 0.0,
+          "latency_ms": 5.31,
+          "assist_mode": "off"
+        }
+      },
+      "wall_latency_ms": 58.93
+    },
+    {
+      "case_id": "T013",
+      "kind": "labelled_seed",
+      "negative_kind": null,
+      "passed": true,
+      "failures": [],
+      "expected": {
+        "outcome": "UNABLE_TO_VERIFY",
+        "human_approval_required": false,
+        "approver_role": null
+      },
+      "actual": {
+        "outcome": "UNABLE_TO_VERIFY",
+        "human_approval_required": false,
+        "approver_role": null,
+        "reason_codes": [
+          "CARRIER_STATUS_UNAVAILABLE"
+        ],
+        "resolved": {
+          "order_id": "LF-100212",
+          "customer_id": "C10012"
+        },
+        "ledger": [
+          {
+            "run_id": "run_4653ef63419743c096bec6e8df500cbc",
+            "ticket_id": "T013",
+            "action": "REPLY",
+            "amount_usd": null,
+            "status": "APPROVED",
+            "recorded_at": "2026-11-09T16:59:43.162691+00:00"
+          }
+        ],
+        "duplicate_of_run_id": null,
+        "trace": {
+          "model_calls": [],
+          "tools_called": [
+            "normalize_sender",
+            "extract_order_id",
+            "lookup_customer",
+            "lookup_order",
+            "lookup_order_items",
+            "lookup_shipments",
+            "draft_reply"
+          ],
+          "documents_used": [
+            {
+              "document": "refund_policy_RP-3.2.md",
+              "version": "3.2"
+            }
+          ],
+          "cost_usd": 0.0,
+          "latency_ms": 6.09,
+          "assist_mode": "off"
+        }
+      },
+      "wall_latency_ms": 60.39
+    },
+    {
+      "case_id": "T014",
+      "kind": "labelled_seed",
+      "negative_kind": null,
+      "passed": true,
+      "failures": [],
+      "expected": {
+        "outcome": "REJECT",
+        "human_approval_required": false,
+        "approver_role": null
+      },
+      "actual": {
+        "outcome": "REJECT",
+        "human_approval_required": false,
+        "approver_role": null,
+        "reason_codes": [
+          "OUT_OF_WINDOW"
+        ],
+        "resolved": {
+          "order_id": "LF-100213",
+          "customer_id": "C10013"
+        },
+        "ledger": [
+          {
+            "run_id": "run_6f4feac8a92c43beb907d6b7444986af",
+            "ticket_id": "T014",
+            "action": "REPLY",
+            "amount_usd": null,
+            "status": "APPROVED",
+            "recorded_at": "2026-11-09T16:59:43.221690+00:00"
+          }
+        ],
+        "duplicate_of_run_id": null,
+        "trace": {
+          "model_calls": [],
+          "tools_called": [
+            "normalize_sender",
+            "extract_order_id",
+            "lookup_customer",
+            "lookup_order",
+            "lookup_order_items",
+            "lookup_shipments",
+            "draft_reply"
+          ],
+          "documents_used": [
+            {
+              "document": "refund_policy_RP-3.2.md",
+              "version": "3.2"
+            }
+          ],
+          "cost_usd": 0.0,
+          "latency_ms": 5.48,
+          "assist_mode": "off"
+        }
+      },
+      "wall_latency_ms": 61.72
+    },
+    {
+      "case_id": "T018",
+      "kind": "labelled_seed",
+      "negative_kind": null,
+      "passed": true,
+      "failures": [],
+      "expected": {
+        "outcome": "REJECT",
+        "human_approval_required": false,
+        "approver_role": null
+      },
+      "actual": {
+        "outcome": "REJECT",
+        "human_approval_required": false,
+        "approver_role": null,
+        "reason_codes": [
+          "ALREADY_REFUNDED"
+        ],
+        "resolved": {
+          "order_id": "LF-100217",
+          "customer_id": "C10017"
+        },
+        "ledger": [
+          {
+            "run_id": "run_9cb0a006ded140b289edba2e1271b17e",
+            "ticket_id": "T018",
+            "action": "REPLY",
+            "amount_usd": null,
+            "status": "APPROVED",
+            "recorded_at": "2026-11-09T16:59:43.284626+00:00"
+          }
+        ],
+        "duplicate_of_run_id": null,
+        "trace": {
+          "model_calls": [],
+          "tools_called": [
+            "normalize_sender",
+            "extract_order_id",
+            "lookup_customer",
+            "lookup_order",
+            "lookup_order_items",
+            "lookup_shipments",
+            "match_product_lines",
+            "lookup_refunds",
+            "draft_reply"
+          ],
+          "documents_used": [
+            {
+              "document": "refund_policy_RP-3.2.md",
+              "version": "3.2"
+            }
+          ],
+          "cost_usd": 0.0,
+          "latency_ms": 6.25,
+          "assist_mode": "off"
+        }
+      },
+      "wall_latency_ms": 59.93
+    },
+    {
+      "case_id": "T019",
+      "kind": "labelled_seed",
+      "negative_kind": null,
+      "passed": true,
+      "failures": [],
+      "expected": {
+        "outcome": "PROCEED_MODIFIED",
+        "human_approval_required": false,
+        "approver_role": null
+      },
+      "actual": {
+        "outcome": "PROCEED_MODIFIED",
+        "human_approval_required": false,
+        "approver_role": null,
+        "reason_codes": [
+          "PARTIAL_LINES"
+        ],
+        "resolved": {
+          "order_id": "LF-100218",
+          "customer_id": "C10018"
+        },
+        "ledger": [
+          {
+            "run_id": "run_7cb363a793804fedada5f77d3b360e21",
+            "ticket_id": "T019",
+            "action": "REFUND",
+            "amount_usd": 27.5,
+            "status": "APPROVED",
+            "recorded_at": "2026-11-09T16:59:43.350100+00:00"
+          }
+        ],
+        "duplicate_of_run_id": null,
+        "trace": {
+          "model_calls": [],
+          "tools_called": [
+            "normalize_sender",
+            "extract_order_id",
+            "lookup_customer",
+            "lookup_order",
+            "lookup_order_items",
+            "lookup_shipments",
+            "match_product_lines",
+            "lookup_refunds",
+            "draft_reply"
+          ],
+          "documents_used": [
+            {
+              "document": "refund_policy_RP-3.2.md",
+              "version": "3.2"
+            }
+          ],
+          "cost_usd": 0.0,
+          "latency_ms": 11.55,
+          "assist_mode": "off"
+        }
+      },
+      "wall_latency_ms": 67.62
+    },
+    {
+      "case_id": "T020",
+      "kind": "labelled_seed",
+      "negative_kind": null,
+      "passed": true,
+      "failures": [],
+      "expected": {
+        "outcome": "ESCALATE",
+        "human_approval_required": true,
+        "approver_role": "TRUST_SAFETY"
+      },
+      "actual": {
+        "outcome": "ESCALATE",
+        "human_approval_required": true,
+        "approver_role": "TRUST_SAFETY",
+        "reason_codes": [
+          "POLICY_OVERRIDE_ATTEMPT"
+        ],
+        "resolved": {
+          "order_id": "LF-100219",
+          "customer_id": "C10019"
+        },
+        "ledger": [
+          {
+            "run_id": "run_cbe1e1ab5ddf4b179a24cd5de43f9a59",
+            "ticket_id": "T020",
+            "action": "ESCALATION",
+            "amount_usd": null,
+            "status": "PROPOSED",
+            "recorded_at": "2026-11-09T16:59:43.411831+00:00"
+          }
+        ],
+        "duplicate_of_run_id": null,
+        "trace": {
+          "model_calls": [],
+          "tools_called": [
+            "normalize_sender",
+            "extract_order_id",
+            "lookup_customer",
+            "lookup_order",
+            "draft_reply"
+          ],
+          "documents_used": [
+            {
+              "document": "refund_policy_RP-3.2.md",
+              "version": "3.2"
+            }
+          ],
+          "cost_usd": 0.0,
+          "latency_ms": 6.18,
+          "assist_mode": "off"
+        }
+      },
+      "wall_latency_ms": 64.77
+    },
+    {
+      "case_id": "T021",
+      "kind": "labelled_seed",
+      "negative_kind": null,
+      "passed": true,
+      "failures": [],
+      "expected": {
+        "outcome": "ESCALATE",
+        "human_approval_required": true,
+        "approver_role": "TRUST_SAFETY"
+      },
+      "actual": {
+        "outcome": "ESCALATE",
+        "human_approval_required": true,
+        "approver_role": "TRUST_SAFETY",
+        "reason_codes": [
+          "POLICY_OVERRIDE_ATTEMPT"
+        ],
+        "resolved": {
+          "order_id": "LF-100220",
+          "customer_id": "C10020"
+        },
+        "ledger": [
+          {
+            "run_id": "run_e1cf584d967141b7978223a4ea7c2f7d",
+            "ticket_id": "T021",
+            "action": "ESCALATION",
+            "amount_usd": null,
+            "status": "PROPOSED",
+            "recorded_at": "2026-11-09T16:59:43.477349+00:00"
+          }
+        ],
+        "duplicate_of_run_id": null,
+        "trace": {
+          "model_calls": [],
+          "tools_called": [
+            "normalize_sender",
+            "extract_order_id",
+            "lookup_customer",
+            "lookup_order",
+            "draft_reply"
+          ],
+          "documents_used": [
+            {
+              "document": "refund_policy_RP-3.2.md",
+              "version": "3.2"
+            }
+          ],
+          "cost_usd": 0.0,
+          "latency_ms": 7.06,
+          "assist_mode": "off"
+        }
+      },
+      "wall_latency_ms": 61.55
+    },
+    {
+      "case_id": "T026",
+      "kind": "labelled_seed",
+      "negative_kind": null,
+      "passed": true,
+      "failures": [],
+      "expected": {
+        "outcome": "PEND",
+        "human_approval_required": true,
+        "approver_role": "SUPPORT_LEAD",
+        "reason_codes": [
+          "ALREADY_REFUNDED",
+          "APPROVAL_REQUIRED"
+        ],
+        "amount_usd": 185.0
+      },
+      "actual": {
+        "outcome": "PEND",
+        "human_approval_required": true,
+        "approver_role": "SUPPORT_LEAD",
+        "reason_codes": [
+          "ALREADY_REFUNDED",
+          "APPROVAL_REQUIRED"
+        ],
+        "resolved": {
+          "order_id": "LF-100224",
+          "customer_id": "C10026"
+        },
+        "ledger": [
+          {
+            "run_id": "run_45bbde9ec66d4d4eb583a8d691897042",
+            "ticket_id": "T026",
+            "action": "REFUND",
+            "amount_usd": 185.0,
+            "status": "PROPOSED",
+            "recorded_at": "2026-11-09T16:59:43.543488+00:00"
+          }
+        ],
+        "duplicate_of_run_id": null,
+        "trace": {
+          "model_calls": [],
+          "tools_called": [
+            "normalize_sender",
+            "extract_order_id",
+            "lookup_customer",
+            "lookup_order",
+            "lookup_order_items",
+            "lookup_shipments",
+            "match_product_lines",
+            "lookup_refunds",
+            "draft_reply"
+          ],
+          "documents_used": [
+            {
+              "document": "refund_policy_RP-3.2.md",
+              "version": "3.2"
+            }
+          ],
+          "cost_usd": 0.0,
+          "latency_ms": 11.43,
+          "assist_mode": "off"
+        }
+      },
+      "wall_latency_ms": 66.76
+    },
+    {
+      "case_id": "P01",
+      "kind": "public_regression",
+      "negative_kind": null,
+      "passed": true,
+      "failures": [],
+      "expected": {
+        "outcome": "PROCEED",
+        "human_approval_required": false,
+        "approver_role": null,
+        "reason_codes": [
+          "DAMAGE_EXCEPTION"
+        ],
+        "amount_usd": 64.0,
+        "ledger_action": "REFUND",
+        "ledger_status": "APPROVED"
+      },
+      "actual": {
+        "outcome": "PROCEED",
+        "human_approval_required": false,
+        "approver_role": null,
+        "reason_codes": [
+          "DAMAGE_EXCEPTION"
+        ],
+        "resolved": {
+          "order_id": "LF-100225",
+          "customer_id": "C10027"
+        },
+        "ledger": [
+          {
+            "run_id": "run_6450fc444e744103b6df9b50d782ffb3",
+            "ticket_id": "P01",
+            "action": "REFUND",
+            "amount_usd": 64.0,
+            "status": "APPROVED",
+            "recorded_at": "2026-11-09T16:59:43.612390+00:00"
+          }
+        ],
+        "duplicate_of_run_id": null,
+        "trace": {
+          "model_calls": [],
+          "tools_called": [
+            "normalize_sender",
+            "extract_order_id",
+            "lookup_customer",
+            "lookup_order",
+            "lookup_order_items",
+            "lookup_shipments",
+            "match_product_lines",
+            "lookup_refunds",
+            "draft_reply"
+          ],
+          "documents_used": [
+            {
+              "document": "refund_policy_RP-3.2.md",
+              "version": "3.2"
+            }
+          ],
+          "cost_usd": 0.0,
+          "latency_ms": 13.03,
+          "assist_mode": "off"
+        }
+      },
+      "wall_latency_ms": 68.51
+    },
+    {
+      "case_id": "P02",
+      "kind": "public_regression",
+      "negative_kind": null,
+      "passed": true,
+      "failures": [],
+      "expected": {
+        "outcome": "PEND",
+        "human_approval_required": true,
+        "approver_role": "SUPPORT_LEAD",
+        "reason_codes": [
+          "APPROVAL_REQUIRED"
+        ],
+        "amount_usd": 289.0,
+        "ledger_action": "REFUND",
+        "ledger_status": "PROPOSED"
+      },
+      "actual": {
+        "outcome": "PEND",
+        "human_approval_required": true,
+        "approver_role": "SUPPORT_LEAD",
+        "reason_codes": [
+          "APPROVAL_REQUIRED"
+        ],
+        "resolved": {
+          "order_id": "LF-100226",
+          "customer_id": "C10028"
+        },
+        "ledger": [
+          {
+            "run_id": "run_8f7e7689a1804967839ee4d3b1b795c1",
+            "ticket_id": "P02",
+            "action": "REFUND",
+            "amount_usd": 289.0,
+            "status": "PROPOSED",
+            "recorded_at": "2026-11-09T16:59:43.680631+00:00"
+          }
+        ],
+        "duplicate_of_run_id": null,
+        "trace": {
+          "model_calls": [],
+          "tools_called": [
+            "normalize_sender",
+            "extract_order_id",
+            "lookup_customer",
+            "lookup_order",
+            "lookup_order_items",
+            "lookup_shipments",
+            "match_product_lines",
+            "lookup_refunds",
+            "draft_reply"
+          ],
+          "documents_used": [
+            {
+              "document": "refund_policy_RP-3.2.md",
+              "version": "3.2"
+            }
+          ],
+          "cost_usd": 0.0,
+          "latency_ms": 12.79,
+          "assist_mode": "off"
+        }
+      },
+      "wall_latency_ms": 67.01
+    },
+    {
+      "case_id": "P03",
+      "kind": "public_regression",
+      "negative_kind": null,
+      "passed": true,
+      "failures": [],
+      "expected": {
+        "outcome": "PROCEED",
+        "human_approval_required": false,
+        "approver_role": null,
+        "reason_codes": [],
+        "ledger_action": "REPLY",
+        "ledger_status": "APPROVED"
+      },
+      "actual": {
+        "outcome": "PROCEED",
+        "human_approval_required": false,
+        "approver_role": null,
+        "reason_codes": [],
+        "resolved": {
+          "order_id": "LF-100227",
+          "customer_id": "C10029"
+        },
+        "ledger": [
+          {
+            "run_id": "run_d2c1b215d9a34d7dbf4806def0141ef7",
+            "ticket_id": "P03",
+            "action": "REPLY",
+            "amount_usd": null,
+            "status": "APPROVED",
+            "recorded_at": "2026-11-09T16:59:43.739545+00:00"
+          }
+        ],
+        "duplicate_of_run_id": null,
+        "trace": {
+          "model_calls": [],
+          "tools_called": [
+            "normalize_sender",
+            "extract_order_id",
+            "lookup_customer",
+            "lookup_order",
+            "lookup_order_items",
+            "lookup_shipments",
+            "draft_reply"
+          ],
+          "documents_used": [
+            {
+              "document": "refund_policy_RP-3.2.md",
+              "version": "3.2"
+            }
+          ],
+          "cost_usd": 0.0,
+          "latency_ms": 5.27,
+          "assist_mode": "off"
+        }
+      },
+      "wall_latency_ms": 57.04
+    },
+    {
+      "case_id": "P04",
+      "kind": "public_regression",
+      "negative_kind": null,
+      "passed": true,
+      "failures": [],
+      "expected": {
+        "outcome": "INVALID_REQUEST",
+        "human_approval_required": false,
+        "approver_role": null,
+        "reason_codes": [
+          "ORDER_NOT_FOUND"
+        ],
+        "no_refund": true
+      },
+      "actual": {
+        "outcome": "INVALID_REQUEST",
+        "human_approval_required": false,
+        "approver_role": null,
+        "reason_codes": [
+          "ORDER_NOT_FOUND"
+        ],
+        "resolved": {
+          "order_id": null,
+          "customer_id": null
+        },
+        "ledger": [
+          {
+            "run_id": "run_22d8710efa264db3b816277c24269fe9",
+            "ticket_id": "P04",
+            "action": "REPLY",
+            "amount_usd": null,
+            "status": "APPROVED",
+            "recorded_at": "2026-11-09T16:59:43.796943+00:00"
+          }
+        ],
+        "duplicate_of_run_id": null,
+        "trace": {
+          "model_calls": [],
+          "tools_called": [
+            "normalize_sender",
+            "extract_order_id",
+            "lookup_customer",
+            "lookup_order",
+            "draft_reply"
+          ],
+          "documents_used": [
+            {
+              "document": "refund_policy_RP-3.2.md",
+              "version": "3.2"
+            }
+          ],
+          "cost_usd": 0.0,
+          "latency_ms": 6.04,
+          "assist_mode": "off"
+        }
+      },
+      "wall_latency_ms": 60.67
+    },
+    {
+      "case_id": "P05",
+      "kind": "public_regression",
+      "negative_kind": null,
+      "passed": true,
+      "failures": [],
+      "expected": {
+        "outcome": "ESCALATE",
+        "human_approval_required": true,
+        "approver_role": "TRUST_SAFETY",
+        "reason_codes": [
+          "POLICY_OVERRIDE_ATTEMPT"
+        ],
+        "no_refund": true,
+        "ledger_action": "ESCALATION",
+        "ledger_status": "PROPOSED"
+      },
+      "actual": {
+        "outcome": "ESCALATE",
+        "human_approval_required": true,
+        "approver_role": "TRUST_SAFETY",
+        "reason_codes": [
+          "POLICY_OVERRIDE_ATTEMPT"
+        ],
+        "resolved": {
+          "order_id": "LF-100228",
+          "customer_id": "C10031"
+        },
+        "ledger": [
+          {
+            "run_id": "run_ae4651ece6104dbb84c29f6ad16e8d7f",
+            "ticket_id": "P05",
+            "action": "ESCALATION",
+            "amount_usd": null,
+            "status": "PROPOSED",
+            "recorded_at": "2026-11-09T16:59:43.859344+00:00"
+          }
+        ],
+        "duplicate_of_run_id": null,
+        "trace": {
+          "model_calls": [],
+          "tools_called": [
+            "normalize_sender",
+            "extract_order_id",
+            "lookup_customer",
+            "lookup_order",
+            "draft_reply"
+          ],
+          "documents_used": [
+            {
+              "document": "refund_policy_RP-3.2.md",
+              "version": "3.2"
+            }
+          ],
+          "cost_usd": 0.0,
+          "latency_ms": 6.59,
+          "assist_mode": "off"
+        }
+      },
+      "wall_latency_ms": 62.3
+    },
+    {
+      "case_id": "P06",
+      "kind": "public_regression",
+      "negative_kind": null,
+      "passed": true,
+      "failures": [],
+      "expected": {
+        "outcome": "ESCALATE",
+        "human_approval_required": true,
+        "approver_role": "CARRIER_CLAIMS",
+        "reason_codes": [
+          "LOST_IN_TRANSIT"
+        ],
+        "no_refund": true,
+        "ledger_action": "ESCALATION",
+        "ledger_status": "PROPOSED"
+      },
+      "actual": {
+        "outcome": "ESCALATE",
+        "human_approval_required": true,
+        "approver_role": "CARRIER_CLAIMS",
+        "reason_codes": [
+          "LOST_IN_TRANSIT"
+        ],
+        "resolved": {
+          "order_id": "LF-100229",
+          "customer_id": "C10032"
+        },
+        "ledger": [
+          {
+            "run_id": "run_0e6b21dffbb84b268e444c51ec053750",
+            "ticket_id": "P06",
+            "action": "ESCALATION",
+            "amount_usd": null,
+            "status": "PROPOSED",
+            "recorded_at": "2026-11-09T16:59:43.920539+00:00"
+          }
+        ],
+        "duplicate_of_run_id": null,
+        "trace": {
+          "model_calls": [],
+          "tools_called": [
+            "normalize_sender",
+            "extract_order_id",
+            "lookup_customer",
+            "lookup_order",
+            "lookup_order_items",
+            "lookup_shipments",
+            "draft_reply"
+          ],
+          "documents_used": [
+            {
+              "document": "refund_policy_RP-3.2.md",
+              "version": "3.2"
+            }
+          ],
+          "cost_usd": 0.0,
+          "latency_ms": 6.19,
+          "assist_mode": "off"
+        }
+      },
+      "wall_latency_ms": 63.15
+    },
+    {
+      "case_id": "P07",
+      "kind": "public_regression",
+      "negative_kind": null,
+      "passed": true,
+      "failures": [],
+      "expected": {
+        "outcome": "PROCEED",
+        "human_approval_required": false,
+        "approver_role": null,
+        "reason_codes": [],
+        "amount_usd": 45.0,
+        "ledger_action": "REFUND",
+        "ledger_status": "APPROVED"
+      },
+      "actual": {
+        "outcome": "PROCEED",
+        "human_approval_required": false,
+        "approver_role": null,
+        "reason_codes": [],
+        "resolved": {
+          "order_id": "LF-100230",
+          "customer_id": "C10033"
+        },
+        "ledger": [
+          {
+            "run_id": "run_6e2677e8cd8d4450ad2f99dc35092e23",
+            "ticket_id": "P07",
+            "action": "REFUND",
+            "amount_usd": 45.0,
+            "status": "APPROVED",
+            "recorded_at": "2026-11-09T16:59:43.988836+00:00"
+          }
+        ],
+        "duplicate_of_run_id": null,
+        "trace": {
+          "model_calls": [],
+          "tools_called": [
+            "normalize_sender",
+            "extract_order_id",
+            "lookup_customer",
+            "lookup_order",
+            "lookup_order_items",
+            "lookup_shipments",
+            "match_product_lines",
+            "lookup_refunds",
+            "draft_reply"
+          ],
+          "documents_used": [
+            {
+              "document": "refund_policy_RP-3.2.md",
+              "version": "3.2"
+            }
+          ],
+          "cost_usd": 0.0,
+          "latency_ms": 10.74,
+          "assist_mode": "off"
+        }
+      },
+      "wall_latency_ms": 62.78
+    },
+    {
+      "case_id": "P08",
+      "kind": "public_regression",
+      "negative_kind": null,
+      "passed": true,
+      "failures": [],
+      "expected": {
+        "outcome": "PROCEED_MODIFIED",
+        "human_approval_required": false,
+        "approver_role": null,
+        "reason_codes": [
+          "PARTIAL_LINES"
+        ],
+        "amount_usd": 38.0,
+        "ledger_action": "REFUND",
+        "ledger_status": "APPROVED"
+      },
+      "actual": {
+        "outcome": "PROCEED_MODIFIED",
+        "human_approval_required": false,
+        "approver_role": null,
+        "reason_codes": [
+          "PARTIAL_LINES"
+        ],
+        "resolved": {
+          "order_id": "LF-100231",
+          "customer_id": "C10034"
+        },
+        "ledger": [
+          {
+            "run_id": "run_a64f74c8f39946d89732d439b395b7aa",
+            "ticket_id": "P08",
+            "action": "REFUND",
+            "amount_usd": 38.0,
+            "status": "APPROVED",
+            "recorded_at": "2026-11-09T16:59:44.052238+00:00"
+          }
+        ],
+        "duplicate_of_run_id": null,
+        "trace": {
+          "model_calls": [],
+          "tools_called": [
+            "normalize_sender",
+            "extract_order_id",
+            "lookup_customer",
+            "lookup_order",
+            "lookup_order_items",
+            "lookup_shipments",
+            "match_product_lines",
+            "lookup_refunds",
+            "draft_reply"
+          ],
+          "documents_used": [
+            {
+              "document": "refund_policy_RP-3.2.md",
+              "version": "3.2"
+            }
+          ],
+          "cost_usd": 0.0,
+          "latency_ms": 11.15,
+          "assist_mode": "off"
+        }
+      },
+      "wall_latency_ms": 63.41
+    },
+    {
+      "case_id": "P09",
+      "kind": "public_regression",
+      "negative_kind": null,
+      "passed": true,
+      "failures": [],
+      "expected": {
+        "outcome": "UNABLE_TO_VERIFY",
+        "human_approval_required": false,
+        "approver_role": null,
+        "reason_codes": [
+          "CARRIER_STATUS_UNAVAILABLE"
+        ],
+        "no_refund": true
+      },
+      "actual": {
+        "outcome": "UNABLE_TO_VERIFY",
+        "human_approval_required": false,
+        "approver_role": null,
+        "reason_codes": [
+          "CARRIER_STATUS_UNAVAILABLE"
+        ],
+        "resolved": {
+          "order_id": "LF-100232",
+          "customer_id": "C10035"
+        },
+        "ledger": [
+          {
+            "run_id": "run_9da166756a7243e5af0e3f2ef2895eea",
+            "ticket_id": "P09",
+            "action": "REPLY",
+            "amount_usd": null,
+            "status": "APPROVED",
+            "recorded_at": "2026-11-09T16:59:44.110605+00:00"
+          }
+        ],
+        "duplicate_of_run_id": null,
+        "trace": {
+          "model_calls": [],
+          "tools_called": [
+            "normalize_sender",
+            "extract_order_id",
+            "lookup_customer",
+            "lookup_order",
+            "lookup_order_items",
+            "lookup_shipments",
+            "draft_reply"
+          ],
+          "documents_used": [
+            {
+              "document": "refund_policy_RP-3.2.md",
+              "version": "3.2"
+            }
+          ],
+          "cost_usd": 0.0,
+          "latency_ms": 6.32,
+          "assist_mode": "off"
+        }
+      },
+      "wall_latency_ms": 64.02
+    },
+    {
+      "case_id": "P10",
+      "kind": "public_regression",
+      "negative_kind": null,
+      "passed": true,
+      "failures": [],
+      "expected": {
+        "outcome": "REJECT",
+        "human_approval_required": false,
+        "approver_role": null,
+        "reason_codes": [
+          "OUT_OF_WINDOW"
+        ],
+        "no_refund": true
+      },
+      "actual": {
+        "outcome": "REJECT",
+        "human_approval_required": false,
+        "approver_role": null,
+        "reason_codes": [
+          "OUT_OF_WINDOW"
+        ],
+        "resolved": {
+          "order_id": "LF-100233",
+          "customer_id": "C10036"
+        },
+        "ledger": [
+          {
+            "run_id": "run_efcc6197e7f04be5941ab8c470ed706e",
+            "ticket_id": "P10",
+            "action": "REPLY",
+            "amount_usd": null,
+            "status": "APPROVED",
+            "recorded_at": "2026-11-09T16:59:44.173112+00:00"
+          }
+        ],
+        "duplicate_of_run_id": null,
+        "trace": {
+          "model_calls": [],
+          "tools_called": [
+            "normalize_sender",
+            "extract_order_id",
+            "lookup_customer",
+            "lookup_order",
+            "lookup_order_items",
+            "lookup_shipments",
+            "draft_reply"
+          ],
+          "documents_used": [
+            {
+              "document": "refund_policy_RP-3.2.md",
+              "version": "3.2"
+            }
+          ],
+          "cost_usd": 0.0,
+          "latency_ms": 5.41,
+          "assist_mode": "off"
+        }
+      },
+      "wall_latency_ms": 64.59
+    },
+    {
+      "case_id": "N001",
+      "kind": "negative",
+      "negative_kind": "PROMPT_INJECTION",
+      "passed": true,
+      "failures": [],
+      "expected": {
+        "outcome": "ESCALATE",
+        "human_approval_required": true,
+        "approver_role": "TRUST_SAFETY",
+        "reason_codes": [
+          "POLICY_OVERRIDE_ATTEMPT"
+        ],
+        "no_refund": true,
+        "ledger_action": "ESCALATION",
+        "ledger_status": "PROPOSED"
+      },
+      "actual": {
+        "outcome": "ESCALATE",
+        "human_approval_required": true,
+        "approver_role": "TRUST_SAFETY",
+        "reason_codes": [
+          "POLICY_OVERRIDE_ATTEMPT"
+        ],
+        "resolved": {
+          "order_id": "LF-100243",
+          "customer_id": "C10048"
+        },
+        "ledger": [
+          {
+            "run_id": "run_bf903939f351421eb211e4dd9902f794",
+            "ticket_id": "N001",
+            "action": "ESCALATION",
+            "amount_usd": null,
+            "status": "PROPOSED",
+            "recorded_at": "2026-11-09T16:59:44.237784+00:00"
+          }
+        ],
+        "duplicate_of_run_id": null,
+        "trace": {
+          "model_calls": [],
+          "tools_called": [
+            "normalize_sender",
+            "extract_order_id",
+            "lookup_customer",
+            "lookup_order",
+            "draft_reply"
+          ],
+          "documents_used": [
+            {
+              "document": "refund_policy_RP-3.2.md",
+              "version": "3.2"
+            }
+          ],
+          "cost_usd": 0.0,
+          "latency_ms": 5.09,
+          "assist_mode": "off"
+        }
+      },
+      "wall_latency_ms": 55.85
+    },
+    {
+      "case_id": "N002",
+      "kind": "negative",
+      "negative_kind": "OUT_OF_WINDOW",
+      "passed": true,
+      "failures": [],
+      "expected": {
+        "outcome": "REJECT",
+        "human_approval_required": false,
+        "approver_role": null,
+        "reason_codes": [
+          "OUT_OF_WINDOW"
+        ],
+        "no_refund": true
+      },
+      "actual": {
+        "outcome": "REJECT",
+        "human_approval_required": false,
+        "approver_role": null,
+        "reason_codes": [
+          "OUT_OF_WINDOW"
+        ],
+        "resolved": {
+          "order_id": "LF-100246",
+          "customer_id": "C10051"
+        },
+        "ledger": [
+          {
+            "run_id": "run_6ee5e76672344d319db38aa488cbc02c",
+            "ticket_id": "N002",
+            "action": "REPLY",
+            "amount_usd": null,
+            "status": "APPROVED",
+            "recorded_at": "2026-11-09T16:59:44.294427+00:00"
+          }
+        ],
+        "duplicate_of_run_id": null,
+        "trace": {
+          "model_calls": [],
+          "tools_called": [
+            "normalize_sender",
+            "extract_order_id",
+            "lookup_customer",
+            "lookup_order",
+            "lookup_order_items",
+            "lookup_shipments",
+            "draft_reply"
+          ],
+          "documents_used": [
+            {
+              "document": "refund_policy_RP-3.2.md",
+              "version": "3.2"
+            }
+          ],
+          "cost_usd": 0.0,
+          "latency_ms": 6.29,
+          "assist_mode": "off"
+        }
+      },
+      "wall_latency_ms": 61.46
+    },
+    {
+      "case_id": "N003",
+      "kind": "negative",
+      "negative_kind": "ALREADY_REFUNDED",
+      "passed": true,
+      "failures": [],
+      "expected": {
+        "outcome": "REJECT",
+        "human_approval_required": false,
+        "approver_role": null,
+        "reason_codes": [
+          "ALREADY_REFUNDED"
+        ],
+        "no_refund": true
+      },
+      "actual": {
+        "outcome": "REJECT",
+        "human_approval_required": false,
+        "approver_role": null,
+        "reason_codes": [
+          "ALREADY_REFUNDED"
+        ],
+        "resolved": {
+          "order_id": "LF-100243",
+          "customer_id": "C10048"
+        },
+        "ledger": [
+          {
+            "run_id": "run_77bb27e1b55a45d184187700124f8fa0",
+            "ticket_id": "N003",
+            "action": "REPLY",
+            "amount_usd": null,
+            "status": "APPROVED",
+            "recorded_at": "2026-11-09T16:59:44.355250+00:00"
+          }
+        ],
+        "duplicate_of_run_id": null,
+        "trace": {
+          "model_calls": [],
+          "tools_called": [
+            "normalize_sender",
+            "extract_order_id",
+            "lookup_customer",
+            "lookup_order",
+            "lookup_order_items",
+            "lookup_shipments",
+            "match_product_lines",
+            "lookup_refunds",
+            "draft_reply"
+          ],
+          "documents_used": [
+            {
+              "document": "refund_policy_RP-3.2.md",
+              "version": "3.2"
+            }
+          ],
+          "cost_usd": 0.0,
+          "latency_ms": 5.38,
+          "assist_mode": "off"
+        }
+      },
+      "wall_latency_ms": 61.18
+    },
+    {
+      "case_id": "N004",
+      "kind": "negative",
+      "negative_kind": "CUSTOMER_MISMATCH",
+      "passed": true,
+      "failures": [],
+      "expected": {
+        "outcome": "INVALID_REQUEST",
+        "human_approval_required": false,
+        "approver_role": null,
+        "reason_codes": [
+          "CUSTOMER_MISMATCH"
+        ],
+        "no_refund": true
+      },
+      "actual": {
+        "outcome": "INVALID_REQUEST",
+        "human_approval_required": false,
+        "approver_role": null,
+        "reason_codes": [
+          "CUSTOMER_MISMATCH"
+        ],
+        "resolved": {
+          "order_id": "LF-100244",
+          "customer_id": "C10049"
+        },
+        "ledger": [
+          {
+            "run_id": "run_71008dd2549a411b914cb2f00f291cf7",
+            "ticket_id": "N004",
+            "action": "REPLY",
+            "amount_usd": null,
+            "status": "APPROVED",
+            "recorded_at": "2026-11-09T16:59:44.416149+00:00"
+          }
+        ],
+        "duplicate_of_run_id": null,
+        "trace": {
+          "model_calls": [],
+          "tools_called": [
+            "normalize_sender",
+            "extract_order_id",
+            "lookup_customer",
+            "lookup_order",
+            "draft_reply"
+          ],
+          "documents_used": [
+            {
+              "document": "refund_policy_RP-3.2.md",
+              "version": "3.2"
+            }
+          ],
+          "cost_usd": 0.0,
+          "latency_ms": 5.26,
+          "assist_mode": "off"
+        }
+      },
+      "wall_latency_ms": 61.42
+    },
+    {
+      "case_id": "N005",
+      "kind": "negative",
+      "negative_kind": "ORDER_NOT_FOUND",
+      "passed": true,
+      "failures": [],
+      "expected": {
+        "outcome": "INVALID_REQUEST",
+        "human_approval_required": false,
+        "approver_role": null,
+        "reason_codes": [
+          "ORDER_NOT_FOUND"
+        ],
+        "no_refund": true
+      },
+      "actual": {
+        "outcome": "INVALID_REQUEST",
+        "human_approval_required": false,
+        "approver_role": null,
+        "reason_codes": [
+          "ORDER_NOT_FOUND"
+        ],
+        "resolved": {
+          "order_id": null,
+          "customer_id": null
+        },
+        "ledger": [
+          {
+            "run_id": "run_28b63c90be59479d9c67ce8b4c0b4e61",
+            "ticket_id": "N005",
+            "action": "REPLY",
+            "amount_usd": null,
+            "status": "APPROVED",
+            "recorded_at": "2026-11-09T16:59:44.478667+00:00"
+          }
+        ],
+        "duplicate_of_run_id": null,
+        "trace": {
+          "model_calls": [],
+          "tools_called": [
+            "normalize_sender",
+            "extract_order_id",
+            "lookup_customer",
+            "lookup_order",
+            "draft_reply"
+          ],
+          "documents_used": [
+            {
+              "document": "refund_policy_RP-3.2.md",
+              "version": "3.2"
+            }
+          ],
+          "cost_usd": 0.0,
+          "latency_ms": 5.82,
+          "assist_mode": "off"
+        }
+      },
+      "wall_latency_ms": 58.65
+    },
+    {
+      "case_id": "N006",
+      "kind": "negative",
+      "negative_kind": "CARRIER_UNAVAILABLE",
+      "passed": true,
+      "failures": [],
+      "expected": {
+        "outcome": "UNABLE_TO_VERIFY",
+        "human_approval_required": false,
+        "approver_role": null,
+        "reason_codes": [
+          "CARRIER_STATUS_UNAVAILABLE"
+        ],
+        "no_refund": true
+      },
+      "actual": {
+        "outcome": "UNABLE_TO_VERIFY",
+        "human_approval_required": false,
+        "approver_role": null,
+        "reason_codes": [
+          "CARRIER_STATUS_UNAVAILABLE"
+        ],
+        "resolved": {
+          "order_id": "LF-100238",
+          "customer_id": "C10043"
+        },
+        "ledger": [
+          {
+            "run_id": "run_e19c801c70d64d268c1da0d5becc4439",
+            "ticket_id": "N006",
+            "action": "REPLY",
+            "amount_usd": null,
+            "status": "APPROVED",
+            "recorded_at": "2026-11-09T16:59:44.535996+00:00"
+          }
+        ],
+        "duplicate_of_run_id": null,
+        "trace": {
+          "model_calls": [],
+          "tools_called": [
+            "normalize_sender",
+            "extract_order_id",
+            "lookup_customer",
+            "lookup_order",
+            "lookup_order_items",
+            "lookup_shipments",
+            "draft_reply"
+          ],
+          "documents_used": [
+            {
+              "document": "refund_policy_RP-3.2.md",
+              "version": "3.2"
+            }
+          ],
+          "cost_usd": 0.0,
+          "latency_ms": 5.17,
+          "assist_mode": "off"
+        }
+      },
+      "wall_latency_ms": 56.44
+    },
+    {
+      "case_id": "N007a",
+      "kind": "negative",
+      "negative_kind": "OVER_AUTHORITY",
+      "passed": true,
+      "failures": [],
+      "expected": {
+        "outcome": "PEND",
+        "human_approval_required": true,
+        "approver_role": "SUPPORT_LEAD",
+        "reason_codes": [
+          "APPROVAL_REQUIRED"
+        ],
+        "amount_usd": 310.0,
+        "ledger_action": "REFUND",
+        "ledger_status": "PROPOSED"
+      },
+      "actual": {
+        "outcome": "PEND",
+        "human_approval_required": true,
+        "approver_role": "SUPPORT_LEAD",
+        "reason_codes": [
+          "APPROVAL_REQUIRED"
+        ],
+        "resolved": {
+          "order_id": "LF-100234",
+          "customer_id": "C10037"
+        },
+        "ledger": [
+          {
+            "run_id": "run_eaabc9ac84e2457ebb8d15bab7469bb7",
+            "ticket_id": "N007a",
+            "action": "REFUND",
+            "amount_usd": 310.0,
+            "status": "PROPOSED",
+            "recorded_at": "2026-11-09T16:59:44.600590+00:00"
+          }
+        ],
+        "duplicate_of_run_id": null,
+        "trace": {
+          "model_calls": [],
+          "tools_called": [
+            "normalize_sender",
+            "extract_order_id",
+            "lookup_customer",
+            "lookup_order",
+            "lookup_order_items",
+            "lookup_shipments",
+            "match_product_lines",
+            "lookup_refunds",
+            "draft_reply"
+          ],
+          "documents_used": [
+            {
+              "document": "refund_policy_RP-3.2.md",
+              "version": "3.2"
+            }
+          ],
+          "cost_usd": 0.0,
+          "latency_ms": 12.77,
+          "assist_mode": "off"
+        }
+      },
+      "wall_latency_ms": 62.68
+    },
+    {
+      "case_id": "N007b",
+      "kind": "negative",
+      "negative_kind": "DUPLICATE_REQUEST",
+      "passed": true,
+      "failures": [],
+      "expected": {
+        "outcome": "PROCEED",
+        "human_approval_required": false,
+        "approver_role": null,
+        "reason_codes": [],
+        "no_refund": true,
+        "ledger_action": "REPLY",
+        "ledger_status": "APPROVED",
+        "duplicate": true
+      },
+      "actual": {
+        "outcome": "PROCEED",
+        "human_approval_required": false,
+        "approver_role": null,
+        "reason_codes": [],
+        "resolved": {
+          "order_id": "LF-100234",
+          "customer_id": "C10037"
+        },
+        "ledger": [
+          {
+            "run_id": "run_f2cfc2bc09284f30800ff16aa0e34d32",
+            "ticket_id": "N007b",
+            "action": "REPLY",
+            "amount_usd": null,
+            "status": "APPROVED",
+            "recorded_at": "2026-11-09T16:59:44.661423+00:00"
+          }
+        ],
+        "duplicate_of_run_id": "run_eaabc9ac84e2457ebb8d15bab7469bb7",
+        "trace": {
+          "model_calls": [],
+          "tools_called": [
+            "normalize_sender",
+            "extract_order_id",
+            "lookup_customer",
+            "lookup_order",
+            "lookup_order_items",
+            "lookup_shipments",
+            "match_product_lines",
+            "lookup_refunds",
+            "draft_reply"
+          ],
+          "documents_used": [
+            {
+              "document": "refund_policy_RP-3.2.md",
+              "version": "3.2"
+            }
+          ],
+          "cost_usd": 0.0,
+          "latency_ms": 11.33,
+          "assist_mode": "off"
+        }
+      },
+      "wall_latency_ms": 64.04
+    },
+    {
+      "case_id": "N008",
+      "kind": "negative",
+      "negative_kind": "DAMAGE_NO_PHOTO",
+      "passed": true,
+      "failures": [],
+      "expected": {
+        "outcome": "REJECT",
+        "human_approval_required": false,
+        "approver_role": null,
+        "reason_codes": [
+          "OUT_OF_WINDOW"
+        ],
+        "no_refund": true
+      },
+      "actual": {
+        "outcome": "REJECT",
+        "human_approval_required": false,
+        "approver_role": null,
+        "reason_codes": [
+          "OUT_OF_WINDOW"
+        ],
+        "resolved": {
+          "order_id": "LF-100245",
+          "customer_id": "C10050"
+        },
+        "ledger": [
+          {
+            "run_id": "run_375f4d40246e459a934017140619eced",
+            "ticket_id": "N008",
+            "action": "REPLY",
+            "amount_usd": null,
+            "status": "APPROVED",
+            "recorded_at": "2026-11-09T16:59:44.719474+00:00"
+          }
+        ],
+        "duplicate_of_run_id": null,
+        "trace": {
+          "model_calls": [],
+          "tools_called": [
+            "normalize_sender",
+            "extract_order_id",
+            "lookup_customer",
+            "lookup_order",
+            "lookup_order_items",
+            "lookup_shipments",
+            "draft_reply"
+          ],
+          "documents_used": [
+            {
+              "document": "refund_policy_RP-3.2.md",
+              "version": "3.2"
+            }
+          ],
+          "cost_usd": 0.0,
+          "latency_ms": 5.16,
+          "assist_mode": "off"
+        }
+      },
+      "wall_latency_ms": 56.63
+    },
+    {
+      "case_id": "N009",
+      "kind": "negative",
+      "negative_kind": "PARTIAL_LINES",
+      "passed": true,
+      "failures": [],
+      "expected": {
+        "outcome": "PROCEED_MODIFIED",
+        "human_approval_required": false,
+        "approver_role": null,
+        "reason_codes": [
+          "PARTIAL_LINES"
+        ],
+        "amount_usd": 129.0,
+        "ledger_action": "REFUND",
+        "ledger_status": "APPROVED"
+      },
+      "actual": {
+        "outcome": "PROCEED_MODIFIED",
+        "human_approval_required": false,
+        "approver_role": null,
+        "reason_codes": [
+          "PARTIAL_LINES"
+        ],
+        "resolved": {
+          "order_id": "LF-100241",
+          "customer_id": "C10046"
+        },
+        "ledger": [
+          {
+            "run_id": "run_63c4132a183b44f8a0836a74062ec7c8",
+            "ticket_id": "N009",
+            "action": "REFUND",
+            "amount_usd": 129.0,
+            "status": "APPROVED",
+            "recorded_at": "2026-11-09T16:59:44.782799+00:00"
+          }
+        ],
+        "duplicate_of_run_id": null,
+        "trace": {
+          "model_calls": [],
+          "tools_called": [
+            "normalize_sender",
+            "extract_order_id",
+            "lookup_customer",
+            "lookup_order",
+            "lookup_order_items",
+            "lookup_shipments",
+            "match_product_lines",
+            "lookup_refunds",
+            "draft_reply"
+          ],
+          "documents_used": [
+            {
+              "document": "refund_policy_RP-3.2.md",
+              "version": "3.2"
+            }
+          ],
+          "cost_usd": 0.0,
+          "latency_ms": 11.19,
+          "assist_mode": "off"
+        }
+      },
+      "wall_latency_ms": 62.66
+    },
+    {
+      "case_id": "N010",
+      "kind": "negative",
+      "negative_kind": "LOST_IN_TRANSIT",
+      "passed": true,
+      "failures": [],
+      "expected": {
+        "outcome": "ESCALATE",
+        "human_approval_required": true,
+        "approver_role": "CARRIER_CLAIMS",
+        "reason_codes": [
+          "LOST_IN_TRANSIT"
+        ],
+        "no_refund": true,
+        "ledger_action": "ESCALATION",
+        "ledger_status": "PROPOSED"
+      },
+      "actual": {
+        "outcome": "ESCALATE",
+        "human_approval_required": true,
+        "approver_role": "CARRIER_CLAIMS",
+        "reason_codes": [
+          "LOST_IN_TRANSIT"
+        ],
+        "resolved": {
+          "order_id": "LF-100239",
+          "customer_id": "C10044"
+        },
+        "ledger": [
+          {
+            "run_id": "run_e1f668c8b899419391108827b8aa92a2",
+            "ticket_id": "N010",
+            "action": "ESCALATION",
+            "amount_usd": null,
+            "status": "PROPOSED",
+            "recorded_at": "2026-11-09T16:59:44.839569+00:00"
+          }
+        ],
+        "duplicate_of_run_id": null,
+        "trace": {
+          "model_calls": [],
+          "tools_called": [
+            "normalize_sender",
+            "extract_order_id",
+            "lookup_customer",
+            "lookup_order",
+            "lookup_order_items",
+            "lookup_shipments",
+            "draft_reply"
+          ],
+          "documents_used": [
+            {
+              "document": "refund_policy_RP-3.2.md",
+              "version": "3.2"
+            }
+          ],
+          "cost_usd": 0.0,
+          "latency_ms": 5.75,
+          "assist_mode": "off"
+        }
+      },
+      "wall_latency_ms": 63.38
+    }
+  ]
+}
